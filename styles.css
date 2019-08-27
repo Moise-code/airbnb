@@ -126,7 +126,7 @@
     font-size: 24px;
     font-weight: 700;
     margin-left: 17%;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     color: #000;
 }
 
@@ -268,8 +268,8 @@
 /*Titre de la section belgique*/
 #rbnb #belgique{
     width: 100%;
-    height: 1350px;
-    background-color: green;
+    height: 665px;
+    background-color: #fff;
 }
 
 #rbnb #belgique #lesautres{
@@ -277,7 +277,7 @@
     height: 65px;
     margin-left: 17%;
     margin-bottom: 25px;
-    background-color: lightgray;
+    
 }
 
 #rbnb #belgique #lesautres .titro{
@@ -501,4 +501,167 @@
     height: 60px;
     background-color: lightcoral;
     float: left;
+}
+
+/*Section travle with airbnb*/
+#rbnb #trailbnb{
+    width: 100%;
+    height: 290px;
+    padding-bottom: 50px;
+    
+}
+
+/*Div Trip*/
+#rbnb #trailbnb #trip{
+    width: 65%;
+    height: 289px;
+    margin-left: 17%;
+    
+}
+
+#trailbnb #trip #travelers .titro{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+#trailbnb #trip #letrio::before{
+    content: " ";
+    background-color: #ebebeb;
+    display: block;
+    width: 99%;
+    height: 1px;
+    margin-bottom: 45px;
+}
+
+#trailbnb #trip #letrio{
+    width: 100%;
+    height: 245px;
+    
+}
+
+/*Div assist et ces différents éléments*/
+#trailbnb #trip #letrio #assist{
+    width: 32.333%;
+    height: 172px;
+    background-color: palegreen;
+    float: left;
+    margin-right: 1%;
+}
+
+#trailbnb #trip #letrio #assist #icon1{
+    width: 100%;
+    height: 60px;
+    background-color: #d32e2e;
+    margin-bottom: 20px;
+}
+
+#trailbnb #trip #letrio #assist #icon1 .avatar{
+    width: 60px;
+    height: 60px;
+    background-color: #ffc965;
+}
+
+#trailbnb #trip #letrio #assist .jour{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #000;
+}
+
+#trailbnb #trip #assist .nuit{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3em;
+    color: #484848;
+}
+
+/*Div chart et ces différents éléments*/
+#trailbnb #trip #letrio #chart{
+    width: 32.333%;
+    height: 172px;
+    background-color: yellow;
+    float: left;
+}
+
+#trailbnb #trip #letrio #chart #icon2{
+    width: 100%;
+    height: 60px;
+    background-color: #d32e2e;
+    margin-bottom: 20px;
+}
+
+#trailbnb #trip #letrio #chart #icon2 .avatar2{
+    width: 60px;
+    height: 60px;
+    background-color: #ffc965;
+}
+
+#trailbnb #trip #letrio #chart .jour{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #000;
+}
+
+#trailbnb #trip #letrio #chart .nuit{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3em;
+    color: #484848;
+}
+
+
+/*Div hote5 et ces différents éléments*/
+#trailbnb #trip #hote5{
+    width: 32.333%;
+    height: 172px;
+    background-color: gray;
+    float: left;
+    margin-left: 1%;
+}
+
+#trailbnb #trip #letrio #hote5 #icon3{
+    width: 100%;
+    height: 60px;
+    background-color: #d32e2e;
+    margin-bottom: 20px;
+}
+
+#trailbnb #trip #letrio #hote5 #icon3 .avatar3{
+    width: 60px;
+    height: 60px;
+    background-color: #ffc965;
+}
+
+#trailbnb #trip #letrio #host .jour{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #000;
+}
+
+#trailbnb #trip #letrio #host .nuit{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3em;
+    color: #484848;
+}
+
+/*::after div letrio*/
+#trailbnb #trip #letrio::after{
+    content: " ";
+    background-color: #ebebeb;
+    display: block;
+    width: 99%;
+    height: 1px;
+    margin-top: 15px;
 }
