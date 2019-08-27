@@ -318,36 +318,41 @@
 /*Section belgique-3 Div pour les commentaires sur les apparts*/
 #rbnb #belgique #biens{
     width: 65%;
-    height: 900px;
+    height: 609px;
     margin-left: 17%;
-    background-color: #ff5a5f;
+    
 
 }
 
 /*Div studio-img div-text-stars-comments-personna et noms*/
 #rbnb #belgique #biens #studio{
-    width: 33.333%;
-    height: 900px;
+    width: 32.333%;
+    height: 519px;
     background-color: gray;
+    margin-right: 1%;
     float: left;
 }
 
 #belgique #biens #studio #limage{
         width: 100%;
-        height: 388.22px;
+        height: 277.22px;
         background-color: #ff5a5f;
+        margin-bottom: 20px;
 }
 
 #belgique #biens #studio #stars{
     width: 100%;
     height: 50px;
+    margin-bottom: 20px;
+
     background-color: lightgreen;
 }
 
 #belgique #biens #studio #comment{
     width: 100%;
     height: auto;
-    background-color: aqua;
+    margin-bottom: 20px;
+    
 }
 
 #belgique #biens #studio #comment .comm{
@@ -355,11 +360,12 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
+    color: #484848;
 }
 
 #belgique #biens #studio #persona{
     width: 100%;
-    height: 150px;
+    height: 60px;
     background-color: firebrick;
 }
 
@@ -377,19 +383,122 @@
     float: left;
 }
 
-
-
-
+/*Div hotes-img div-text-star-comment-personnas et noms*/
 #rbnb #belgique #biens #hotes{
-    width: 33.333%;
-    height: 900px;
+    width: 32.333%;
+    height: 519px;
+    margin-bottom: 20px;
+
     background-color: lightgray;
     float: left;
 }
 
+
+#belgique #biens #hotes #hoteimg{
+        width: 100%;
+        height: 277.22px;
+        margin-bottom: 20px;
+        background-color: #ffc55a;
+}
+
+#belgique #biens #hotes #star{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: lightgreen;
+}
+
+#belgique #biens #hotes #comments{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    
+}
+
+#belgique #biens #hotes #comments .comms{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #484848;
+}
+
+#belgique #biens #hotes #personas{
+    width: 100%;
+    height: 60px;
+    background-color: firebrick;
+}
+
+#belgique #biens #hotes #personas .photos{
+    width: 60px;
+    height: 60px;
+    background-color: peru;
+    float: left;
+}
+
+#belgique #biens #hotes #personas .noms{
+    width: 70%;
+    height: 60px;
+    background-color: lightcoral;
+    float: left;
+}
+
+
+/*Div confort-img div-text-stars-comments-personna et noms*/
 #rbnb #belgique #biens #confort{
-    width: 33.333%;
-    height: 900px;
+    width: 32.333%;
+    height: 519px;
+    margin-left: 1%;
     background-color: gray;
+    float: left;
+}
+
+
+#belgique #biens #confort #confortimg{
+        width: 100%;
+        height: 277.22px;
+        margin-bottom: 20px;
+        background-color: #ff8f5a;
+}
+
+#belgique #biens #confort #confortstar{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: lightgreen;
+}
+
+#belgique #biens #confort #commentconf{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    
+}
+
+#belgique #biens #confort #commentconf .comconfort{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #484848;
+}
+
+#belgique #biens #confort #personaconf{
+    width: 100%;
+    height: 60px;
+    background-color: firebrick;
+}
+
+#belgique #biens #confort #personaconf .photoconf{
+    width: 60px;
+    height: 60px;
+    background-color: peru;
+    float: left;
+}
+
+#belgique #biens #confort #personaconf .confnom{
+    width: 70%;
+    height: 60px;
+    background-color: lightcoral;
     float: left;
 }
