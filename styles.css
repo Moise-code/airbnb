@@ -328,7 +328,6 @@
 #rbnb #belgique #biens #studio{
     width: 32.333%;
     height: 519px;
-    background-color: gray;
     margin-right: 1%;
     float: left;
 }
@@ -342,11 +341,55 @@
 
 #belgique #biens #studio #stars{
     width: 100%;
-    height: 50px;
+    height: 30px;
     margin-bottom: 20px;
-
-    background-color: lightgreen;
 }
+
+/*Début-Les étoiles icon*/
+#belgique #biens #studio #stars .stars1{
+    width: 6%;
+    height: 23px;
+    background-color: #ecc047;
+    float: left;
+    
+}
+
+#belgique #biens #studio #stars .stars2{
+    width: 6%;
+    height: 23px;
+    background-color: #b18a1f;
+    margin-left: 1%;
+    float: left;
+    
+}
+
+#belgique #biens #studio #stars .stars3{
+    width: 6%;
+    height: 23px;
+    background-color: #c0ec47;
+    margin-left: 1%;
+    float: left;
+    
+}
+
+#belgique #biens #studio #stars .stars4{
+    width: 6%;
+    height: 23px;
+    background-color: #04a381;
+    margin-left: 1%;
+    float: left;
+    
+}
+
+#belgique #biens #studio #stars .stars5{
+    width: 6%;
+    height: 23px;
+    background-color: #47b8ec;
+    margin-left: 1%;
+    float: left; 
+}
+
+/*Fin-Le étoiles icon*/
 
 #belgique #biens #studio #comment{
     width: 100%;
@@ -366,12 +409,12 @@
 #belgique #biens #studio #persona{
     width: 100%;
     height: 60px;
-    background-color: firebrick;
 }
 
 #belgique #biens #studio #persona .photo{
     width: 60px;
     height: 60px;
+    border-radius: 30px;
     background-color: peru;
     float: left;
 }
@@ -379,17 +422,31 @@
 #belgique #biens #studio #persona .nom{
     width: 70%;
     height: 60px;
-    background-color: lightcoral;
+    margin-left: 4%;
     float: left;
 }
+
+#belgique #biens #studio #persona .nom .sappelle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.6em;
+    color: #484848;
+}
+
+#belgique #biens #studio #persona .nom .letat{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #484848;
+}
+
 
 /*Div hotes-img div-text-star-comment-personnas et noms*/
 #rbnb #belgique #biens #hotes{
     width: 32.333%;
     height: 519px;
     margin-bottom: 20px;
-
-    background-color: lightgray;
     float: left;
 }
 
@@ -403,10 +460,57 @@
 
 #belgique #biens #hotes #star{
     width: 100%;
-    height: 50px;
+    height: 30px;
     margin-bottom: 20px;
-    background-color: lightgreen;
+    
 }
+
+/*Début-Les étoiles icon-hotes*/
+#belgique #biens #hotes #star .stars1{
+    width: 6%;
+    height: 23px;
+    background-color: #ecc047;
+    float: left;
+    
+}
+
+#belgique #biens #hotes #star .stars2{
+    width: 6%;
+    height: 23px;
+    background-color: #b18a1f;
+    margin-left: 1%;
+    float: left;
+    
+}
+
+#belgique #biens #hotes #star .stars3{
+    width: 6%;
+    height: 23px;
+    background-color: #c0ec47;
+    margin-left: 1%;
+    float: left;
+    
+}
+
+#belgique #biens #hotes #star .stars4{
+    width: 6%;
+    height: 23px;
+    background-color: #04a381;
+    margin-left: 1%;
+    float: left;
+    
+}
+
+#belgique #biens #hotes #star .stars5{
+    width: 6%;
+    height: 23px;
+    background-color: #47b8ec;
+    margin-left: 1%;
+    float: left; 
+}
+
+/*Fin-Le étoiles icon*/
+
 
 #belgique #biens #hotes #comments{
     width: 100%;
@@ -426,12 +530,12 @@
 #belgique #biens #hotes #personas{
     width: 100%;
     height: 60px;
-    background-color: firebrick;
 }
 
 #belgique #biens #hotes #personas .photos{
     width: 60px;
     height: 60px;
+    border-radius: 30px;
     background-color: peru;
     float: left;
 }
@@ -439,9 +543,26 @@
 #belgique #biens #hotes #personas .noms{
     width: 70%;
     height: 60px;
-    background-color: lightcoral;
+    margin-left: 4%;
     float: left;
 }
+
+
+#belgique #biens #hotes #personas .noms .sappelle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.6em;
+    color: #484848;
+}
+
+#belgique #biens #hotes #personas .noms .letat{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #484848;
+}
+
 
 
 /*Div confort-img div-text-stars-comments-personna et noms*/
@@ -449,7 +570,6 @@
     width: 32.333%;
     height: 519px;
     margin-left: 1%;
-    background-color: gray;
     float: left;
 }
 
@@ -463,10 +583,57 @@
 
 #belgique #biens #confort #confortstar{
     width: 100%;
-    height: 50px;
+    height: 30px;
     margin-bottom: 20px;
-    background-color: lightgreen;
+    
 }
+
+/*Début-Les étoiles icon-confort*/
+#belgique #biens #confort #confortstar .stars1{
+    width: 6%;
+    height: 23px;
+    background-color: #ecc047;
+    float: left;
+    
+}
+
+#belgique #biens #confort #confortstar .stars2{
+    width: 6%;
+    height: 23px;
+    background-color: #b18a1f;
+    margin-left: 1%;
+    float: left;
+    
+}
+
+#belgique #biens #confort #confortstar .stars3{
+    width: 6%;
+    height: 23px;
+    background-color: #c0ec47;
+    margin-left: 1%;
+    float: left;
+    
+}
+
+#belgique #biens #confort #confortstar .stars4{
+    width: 6%;
+    height: 23px;
+    background-color: #04a381;
+    margin-left: 1%;
+    float: left;
+    
+}
+
+#belgique #biens #confort #confortstar .stars5{
+    width: 6%;
+    height: 23px;
+    background-color: #47b8ec;
+    margin-left: 1%;
+    float: left; 
+}
+
+/*Fin-Le étoiles icon*/
+
 
 #belgique #biens #confort #commentconf{
     width: 100%;
@@ -486,12 +653,12 @@
 #belgique #biens #confort #personaconf{
     width: 100%;
     height: 60px;
-    background-color: firebrick;
 }
 
 #belgique #biens #confort #personaconf .photoconf{
     width: 60px;
     height: 60px;
+    border-radius: 30px;
     background-color: peru;
     float: left;
 }
@@ -499,9 +666,25 @@
 #belgique #biens #confort #personaconf .confnom{
     width: 70%;
     height: 60px;
-    background-color: lightcoral;
+    margin-left: 4%;
     float: left;
 }
+
+#belgique #biens #confort #personaconf .confnom .sappelle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.6em;
+    color: #484848;
+}
+
+#belgique #biens #confort #personaconf .confnom .letat{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #484848;
+}
+
 
 /*Section travle with airbnb*/
 #rbnb #trailbnb{
@@ -527,6 +710,7 @@
     color: #000;
 }
 
+/*::bef et aft pour la div trio*/
 #trailbnb #trip #letrio::before{
     content: " ";
     background-color: #ebebeb;
@@ -535,6 +719,16 @@
     height: 1px;
     margin-bottom: 45px;
 }
+
+#trailbnb #trip #letrio::after{
+    content: " ";
+    background-color: #ebebeb;
+    display: block;
+    width: 99%;
+    height: 1px;
+    margin-top: 253px;
+}
+
 
 #trailbnb #trip #letrio{
     width: 100%;
@@ -546,7 +740,6 @@
 #trailbnb #trip #letrio #assist{
     width: 32.333%;
     height: 172px;
-    background-color: palegreen;
     float: left;
     margin-right: 1%;
 }
@@ -554,7 +747,6 @@
 #trailbnb #trip #letrio #assist #icon1{
     width: 100%;
     height: 60px;
-    background-color: #d32e2e;
     margin-bottom: 20px;
 }
 
@@ -584,14 +776,12 @@
 #trailbnb #trip #letrio #chart{
     width: 32.333%;
     height: 172px;
-    background-color: yellow;
     float: left;
 }
 
 #trailbnb #trip #letrio #chart #icon2{
     width: 100%;
     height: 60px;
-    background-color: #d32e2e;
     margin-bottom: 20px;
 }
 
@@ -622,7 +812,6 @@
 #trailbnb #trip #hote5{
     width: 32.333%;
     height: 172px;
-    background-color: gray;
     float: left;
     margin-left: 1%;
 }
@@ -630,7 +819,6 @@
 #trailbnb #trip #letrio #hote5 #icon3{
     width: 100%;
     height: 60px;
-    background-color: #d32e2e;
     margin-bottom: 20px;
 }
 
@@ -656,12 +844,759 @@
     color: #484848;
 }
 
-/*::after div letrio*/
-#trailbnb #trip #letrio::after{
+
+/*Section Reserver à l'instant en Belgique*/
+#rbnb #booking{
+    width: 100%;
+    height: 800px;
+    
+} 
+
+#rbnb #booking #partout{
+    width: 64.3%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: 17%
+}
+
+#rbnb #booking #partout .titro{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+/*Div quadri*/
+#rbnb #booking #leslieux{
+    width: 100%;
+    height: 430px;
+}
+
+/*Div quadri-div Overijs*/
+#rbnb #booking #leslieux #overijs{
+    width: 15%;
+    height: 370px;
+    margin-left: 17%;
+    float: left;
+}
+
+#rbnb #booking #leslieux #overijs #ovimg{
+    width: 100%;
+    height: 210px;
+    background-color: #0b59b3;
+
+}
+
+#rbnb #booking #leslieux #overijs #ovimg img{
+    width: 100%;
+    height: 210px;
+    
+}
+
+#rbnb #booking #leslieux #overijs .entete{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #767676;
+    margin-top: 12px;
+}
+
+#leslieux #overijs #untitre .titro{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #484848;
+    margin-top: 10px;
+}
+
+#leslieux #overijs #par .night{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #484848;
+    margin-top: 10px;
+}
+
+#leslieux #overijs #rating .ptitetoile{
+    width: 36%;
+    height: 14px;
+    float: left;
+
+}
+
+/*les petites étoile de la class ptitetoile -Overijs*/
+#leslieux #overijs #rating .ptitetoile .stars1{
+    width: 14%;
+    height: 14px;
+    background-color: #ecc047;
+    float: left;
+    
+}
+
+#leslieux #overijs #rating .ptitetoile .stars2{
+    width: 14%;
+    height: 14px;
+    background-color: #b18a1f;
+    margin-left: 3%;
+    float: left;
+    
+}
+
+#leslieux #overijs #rating .ptitetoile .stars3{
+    width: 14%;
+    height: 14px;
+    background-color: #c0ec47;
+    margin-left: 3%;
+    float: left;
+    
+}
+
+#leslieux #overijs #rating .ptitetoile .stars4{
+    width: 14%;
+    height: 14px;
+    background-color: #04a381;
+    margin-left: 3%;
+    float: left;
+    
+}
+
+#leslieux #overijs #rating .ptitetoile .stars5{
+    width: 14%;
+    height: 14px;
+    background-color: #47b8ec;
+    margin-left: 3%;
+    float: left; 
+}
+
+/*Fin etoile-overijs*/
+
+#leslieux #overijs #rating .super{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #484848;
+    margin-top: 10px;
+    line-height: 1.6em;
+
+}
+
+/*Fin div overijs*/
+
+/*Div quadri-div ixelles*/
+#rbnb #booking #leslieux #ixelles{
+    width: 15%;
+    height: 210px;
+    margin-left: 1%;
+    float: left;
+}
+
+#rbnb #booking #leslieux #ixelles {
+    width: 15%;
+    height: 370px;
+    float: left;
+}
+
+#rbnb #booking #leslieux #ixelles #iximg{
+    width: 100%;
+    height: 210px;
+    background-color: #0b59b3;
+
+}
+
+#rbnb #booking #leslieux #ixelles #iximg img{
+    width: 100%;
+    height: 210px;
+    
+}
+
+#rbnb #booking #leslieux #ixelles .entete{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #767676;
+    margin-top: 12px;
+}
+
+#leslieux #ixelles #xelletitre .titro{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #484848;
+    margin-top: 10px;
+}
+
+#leslieux #ixelles #de .night{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #484848;
+    margin-top: 10px;
+}
+
+#leslieux #ixelles #rate .ptitetoile{
+    width: 36%;
+    height: 14px;
+    float: left;
+
+}
+
+/*les petites étoile de la class ptitetoile -Ixelles*/
+#leslieux #ixelles #rate .ptitetoile .stars1{
+    width: 14%;
+    height: 14px;
+    background-color: #ecc047;
+    float: left;
+    
+}
+
+#leslieux #ixelles #rate .ptitetoile .stars2{
+    width: 14%;
+    height: 14px;
+    background-color: #b18a1f;
+    margin-left: 3%;
+    float: left;
+    
+}
+
+#leslieux #ixelles #rate .ptitetoile .stars3{
+    width: 14%;
+    height: 14px;
+    background-color: #c0ec47;
+    margin-left: 3%;
+    float: left;
+    
+}
+
+#leslieux #ixelles #rate .ptitetoile .stars4{
+    width: 14%;
+    height: 14px;
+    background-color: #04a381;
+    margin-left: 3%;
+    float: left;
+    
+}
+
+#leslieux #ixelles #rate .ptitetoile .stars5{
+    width: 14%;
+    height: 14px;
+    background-color: #47b8ec;
+    margin-left: 3%;
+    float: left; 
+}
+
+/*Fin etoile-Ixelles*/
+
+#leslieux #ixelles #rate .super{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #484848;
+    margin-top: 10px;
+    line-height: 1.6em;
+
+}
+
+/*Fin div ixelles*/
+
+/*Div quadri-div brussels*/
+#rbnb #booking #leslieux #brussels{
+    width: 15%;
+    height: 210px;
+    margin-left: 1%;
+    float: left;
+}
+
+#rbnb #booking #leslieux #brussels {
+    width: 15%;
+    height: 370px;
+    float: left;
+}
+
+#rbnb #booking #leslieux #brussels #bxlimg{
+    width: 100%;
+    height: 210px;
+    background-color: #0b59b3;
+
+}
+
+#rbnb #booking #leslieux #brussels #bxlimg img{
+    width: 100%;
+    height: 210px;
+    
+}
+
+#rbnb #booking #leslieux #brussels .entete{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #767676;
+    margin-top: 12px;
+}
+
+#leslieux #brussels #bxltitre .titro{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #484848;
+    margin-top: 10px;
+    line-height: 1.3em;
+}
+
+#leslieux #brussels #by .night{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #484848;
+    margin-top: 10px;
+}
+
+#leslieux #brussels #cote .ptitetoile{
+    width: 36%;
+    height: 14px;
+    float: left;
+
+}
+
+/*les petites étoile de la class ptitetoile -Bruxelles*/
+#leslieux #brussels #cote .ptitetoile .stars1{
+    width: 14%;
+    height: 14px;
+    background-color: #ecc047;
+    float: left;
+    
+}
+
+#leslieux #brussels #cote .ptitetoile .stars2{
+    width: 14%;
+    height: 14px;
+    background-color: #b18a1f;
+    margin-left: 3%;
+    float: left;
+    
+}
+
+#leslieux #brussels #cote .ptitetoile .stars3{
+    width: 14%;
+    height: 14px;
+    background-color: #c0ec47;
+    margin-left: 3%;
+    float: left;
+    
+}
+
+#leslieux #brussels #cote .ptitetoile .stars4{
+    width: 14%;
+    height: 14px;
+    background-color: #04a381;
+    margin-left: 3%;
+    float: left;
+    
+}
+
+#leslieux #brussels #cote .ptitetoile .stars5{
+    width: 14%;
+    height: 14px;
+    background-color: #47b8ec;
+    margin-left: 3%;
+    float: left; 
+}
+
+/*Fin etoile-brussels*/
+
+#leslieux #brussels #cote .super{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #484848;
+    margin-top: 10px;
+    line-height: 1.6em;
+
+}
+
+/*Fin div Brssels*/
+
+/*Div quadri-div nieuwpoort*/
+#rbnb #booking #leslieux #nieuwpoort{
+    width: 15%;
+    height: 210px;
+    margin-left: 1%;
+    float: left;
+}
+
+#rbnb #booking #leslieux #nieuwpoort {
+    width: 15%;
+    height: 370px;
+    float: left;
+}
+
+#rbnb #booking #leslieux #nieuwpoort #poortimg{
+    width: 100%;
+    height: 210px;
+    background-color: #0b59b3;
+
+}
+
+#rbnb #booking #leslieux #nieuwpoort #poortimg img{
+    width: 100%;
+    height: 210px;
+    
+}
+
+#rbnb #booking #leslieux #nieuwpoort .entete{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #767676;
+    margin-top: 12px;
+}
+
+#leslieux #nieuwpoort #poorttitre .titro{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #484848;
+    margin-top: 10px;
+    line-height: 1.3em;
+}
+
+#leslieux #nieuwpoort #van .night{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #484848;
+    margin-top: 10px;
+}
+
+#leslieux #nieuwpoort #derating .ptitetoile{
+    width: 36%;
+    height: 14px;
+    float: left;
+
+}
+
+/*les petites étoile de la class ptitetoile -Nieuwpoort*/
+#leslieux #nieuwpoort #derating .ptitetoile .stars1{
+    width: 14%;
+    height: 14px;
+    background-color: #ecc047;
+    float: left;
+    
+}
+
+#leslieux #nieuwpoort #derating .ptitetoile .stars2{
+    width: 14%;
+    height: 14px;
+    background-color: #b18a1f;
+    margin-left: 3%;
+    float: left;
+    
+}
+
+#leslieux #nieuwpoort #derating .ptitetoile .stars3{
+    width: 14%;
+    height: 14px;
+    background-color: #c0ec47;
+    margin-left: 3%;
+    float: left;
+    
+}
+
+#leslieux #nieuwpoort #derating .ptitetoile .stars4{
+    width: 14%;
+    height: 14px;
+    background-color: #04a381;
+    margin-left: 3%;
+    float: left;
+    
+}
+
+#leslieux #nieuwpoort #derating .ptitetoile .stars5{
+    width: 14%;
+    height: 14px;
+    background-color: #47b8ec;
+    margin-left: 3%;
+    float: left; 
+}
+
+/*Fin etoile-nieuwpoort*/
+
+
+#leslieux #nieuwpoort #derating .super{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #484848;
+    margin-top: 10px;
+    line-height: 1.6em;
+
+}
+
+/*Fin div nieuwpoort*/
+
+/*LIen pour afficher plus*/
+#rbnb #booking #affich{
+    width: 20%;
+    height: 15px;
+    margin-left: 17%;
+    padding-bottom: 55px;
+
+}
+
+#rbnb #booking #affich .cetext a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #008489;
+
+}
+
+/*Div bouton quand voulez-vous voyager ?*/
+#rbnb #booking #levoyage{
+    width: 50%;
+    height: 150px;
+    margin-left: 17%;
+}
+
+#rbnb #booking #levoyage #picker{
+    width: 100%;
+    height: auto;
+    
+}
+
+#rbnb #booking #levoyage #picker .titro{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #000;
+}
+
+#rbnb #booking #levoyage #dispo .night{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: #484848;
+    
+}
+
+/*Button*/
+#rbnb #booking #levoyage #cliqueur{
+    width: 100%;
+    height: 48px;
+}
+
+#rbnb #booking #levoyage #cliqueur .datum{
+    width: 25%;
+    height: 48px;
+    background-color: #008489;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 900 !important;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+
+/*Section lemenu*/
+#rbnb #lemenu{
+    width: 100%;
+    height: 287px;
+    background-color: #fff;
+    margin-bottom: 45px;
+}
+
+#rbnb #lemenu::before{
     content: " ";
     background-color: #ebebeb;
     display: block;
-    width: 99%;
+    width: 100%;
     height: 1px;
-    margin-top: 15px;
+    margin-bottom: 45px;
+    
+}
+/*::before et ::after sur la section booking*/
+#rbnb #lemenu::after{
+    content: " ";
+    background-color: #ebebeb;
+    display: block;
+    width: 65%;
+    height: 1px;
+    margin-left: 17%;
+    
+    
+}
+
+/*Lequat*/
+#rbnb #lemenu #lequat{
+    width: 65%;
+    height: 240px;
+    margin-left: 17%;
+    
+}
+
+/*menu1*/
+#rbnb #lemenu #lequat #menu1{
+    width: 20%;
+    height: 240px;
+    float: left;
+}
+
+#lemenu #lequat #menu1 #air{
+    width: 45%;
+    height: 30px;
+    padding-bottom: 15px;
+
+}
+
+#lemenu #lequat #menu1 #air .bnb{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.9em;
+}
+
+/*UL-LI*/
+
+ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.4em;
+    text-decoration: none;
+    color: #767676;
+    cursor: pointer;
+}
+
+
+/*menu2*/
+#rbnb #lemenu #lequat #menu2{
+    width: 20%;
+    height: 240px;
+    float: left;
+    margin-left: 70px;
+}
+
+#lemenu #lequat #menu2 #decouvre{
+    width: 45%;
+    height: 30px;
+    padding-bottom: 15px;
+    
+}
+
+#lemenu #lequat #menu2 #decouvre .bnb{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.9em;
+}
+
+
+/*menu3*/
+#rbnb #lemenu #lequat #menu3{
+    width: 20%;
+    height: 240px;
+    float: left;
+    margin-left: 70px;
+}
+
+#lemenu #lequat #menu3 #heberge{
+    width: 45%;
+    height: 30px;
+    padding-bottom: 15px;
+}
+
+#lemenu #lequat #menu3 #heberge .bnb{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.9em;
+}
+
+
+/*menu4*/
+#rbnb #lemenu #lequat #menu4{
+    width: 20%;
+    height: 240px;
+    float: left;
+    margin-left: 70px;
+}
+
+#lequat #menu4 #condition{
+    width: 100%;
+    height: 20px;
+    margin-bottom: 26px;
+}
+
+#lequat #menu4 #condition #social1{
+    width: 10%;
+    height: 20px;
+    background-color: #484848;
+    float: left;
+}
+
+#lequat #menu4 #condition #social2{
+    width: 10%;
+    height: 20px;
+    background-color: #ecc047;
+    float: left;
+}
+
+#lequat #menu4 #condition #social3{
+    width: 10%;
+    height: 20px;
+    background-color: #484848;
+    float: left;
+}
+
+/*le mini footer*/
+#rbnb #lebas{
+    width: 100%;
+    height: 50px;
+}
+
+#rbnb #lebas #foot{
+    width: 65%;
+    height: 50px;
+    margin-left: 17%
+}
+
+#rbnb #lebas #foot #logo2{
+    width: 2%;
+    height: 25px;
+    background-color: #a4a5a2;
+    float: left;
+}
+
+#rbnb #lebas #foot #all{
+    width: 36%;
+    height: 25px;
+    margin-left: 1%;
+    float: left;
+}
+
+#rbnb #lebas #foot #all .right{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300 !important;
+    color: #767676;
+}
+
+#rbnb #lebas #foot #europe{
+    width: 6%;
+    height: 25px;
+    margin-left: 55%;
+    float: left;
+}
+
+#rbnb #lebas #foot #europe .devise{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300 !important;
+    color: #767676;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
 }
