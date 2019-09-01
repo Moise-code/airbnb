@@ -1,22 +1,50 @@
 /*Début du site*/
 #rbnb{
     width: 100%;
-    height: 800px;
+    height: 1000px;
     background-color: lightgray;
 }
 
 /*Header réservation*/
 #rbnb #reserv{
     width: 100%;
-    height: auto;
+    height: 580px;
     background-color: gray;
-    padding-top: 240px;
     padding-bottom: 80px;
+}
+
+#rbnb #reserv img{
+    width: 100%;
+    height: 580;
+    
+    
+}
+
+#rbnb #reserv #logo1{
+    width: 45px;
+    height: 45px;
+    margin-top: 5px;
+    margin-left: 30px;
+    
+    
+}
+
+#rbnb #reserv #logo1 img{
+    width: 45px;
+    height: 45px;
+      
+}
+
+/*Logo-Airbnb*/
+#rbnb #reserv img{
+    width: 100%;
+    height: auto;
 }
 
 #rbnb #reserv #textbutt{
     width: 54%;
     height: auto;
+    margin-top: 240px;
     margin-left: 17%;
 }
 
@@ -66,8 +94,12 @@
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 700;
-    color: #000;
     
+}
+
+#bout1 a{
+    text-decoration: none;
+    color: #484848;
 }
 
 /*Titre bouton 1*/
@@ -88,6 +120,11 @@
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid #fff;
     
+}
+
+#bout2 a{
+    text-decoration: none;
+    color: #484848;
 }
 
 #rbnb #reserv #butondroit #bout2 .vasur{
@@ -144,7 +181,7 @@
     height: 102px;
     float: left;
     margin-left: 17%;
-
+    
 }
 
 #loger #unique form .lepays{
@@ -152,6 +189,9 @@
     height: 65px;
     border: 1px solid #bfbfbf;
     border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 
@@ -160,14 +200,24 @@
     width: 23%;
     height: 50px;
     float: left;
+    
 }
 
-#loger #unique form #arrive #carre1{
+#loger #unique form #arrive #lescarrey{
+    width: 100%;
+    height: 67px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px 5px 5px 05px;
+    float: left;
+
+}
+
+#loger #unique form #arrive #lescarrey #carre1{
     width: 50%;
     float: left;
 }
 
-#loger #unique form #arrive #carre2{
+#loger #unique form #arrive #lescarrey #carre2{
     width: 50%;
     float: left;
 }
@@ -181,20 +231,26 @@
 }
 
 #rbnb #loger #unique form #arrive .quand{
-    width: 98%;
+    width: 100%;
     height: 67px;
-    border: 1px solid #bfbfbf;
+    border: none;
     border-radius: 5px 0px 0px 05px;
     float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 
 }
 
 #rbnb #loger #unique form #arrive .when{
-    width: 98%;
+    width: 99%;
     height: 67px;
-    border: 1px solid #bfbfbf;
+    border: none;
     border-radius: 0px 5px 5px 0px;
     float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 
 }
 
@@ -206,13 +262,17 @@
     margin-left: 1%;
 }
 
-#rbnb #loger #unique form #travel #voy{
+#rbnb #loger #unique form #travel #voy,.voyager{
     width: 100%;
     height: 68px;
     border: 1px solid #bfbfbf;
     border-radius: 5px;
     background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
+
 
 
 /*Button search*/
@@ -1568,6 +1628,12 @@ ul li a{
     height: 25px;
     background-color: #a4a5a2;
     float: left;
+}
+
+#rbnb #lebas #foot #logo2 img{
+    width: 25px;
+    height: 25px;
+    
 }
 
 #rbnb #lebas #foot #all{

@@ -1,0 +1,2747 @@
+/*media querie 200-500px*/
+@media screen and (min-width: 200px) and (max-width: 500px)
+{  /*Header*/
+    #rbnb #reserv {
+        width: 100%;
+        height: 375px;
+        background-color: gray;
+        padding-bottom: 150px;
+    }
+
+    #rbnb #reserv #textbutt {
+    width: 97%;
+    height: auto;
+    margin-top: 13px;
+    margin-left: 1.5%;
+    }
+
+    #rbnb #reserv #textbutt .sejour {
+        width: 100%;
+        line-height: 1.3;
+        font-family: 'Roboto', sans-serif;
+        font-size: 31px;
+        font-weight: 800;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+
+    #rbnb #reserv #textbutt #lesboutons {
+        width: 100%;
+        height: 188px;
+        margin-top: 48px;
+    }
+
+    #rbnb #reserv #textbutt #lesboutons #butongauch {
+        width: 80%;
+        height: 80px;
+        margin-left: 12%;
+    }
+
+    #lesboutons #butondroit {
+        width: 80% !important;
+        height: 80px !important;
+        margin-left: 12% !important;
+        margin-top: 20px !important;
+    
+    }
+
+    /*Div loger et tous ses éléments*/
+    /*Headline*/
+    #rbnb #loger #unique .titro {
+        font-family: 'Roboto', sans-serif;
+        font-size: 27px;
+        font-weight: 700;
+        margin-left: 10%;
+        margin-bottom: 20px;
+        line-height: 1.4;
+        color: #000;
+    }
+
+    
+
+    /*section Formulaire (même si je n'ai pas utilisé de balise sect)*/
+    #rbnb #loger #unique form {
+        width: 100%;
+        height: 505px;
+        padding-bottom: 30px;
+        
+    }
+
+    #rbnb #loger #unique form #pays {
+        width: 80%;
+        height: 102px;
+        margin-left: 10%;
+    }
+
+    #rbnb #loger #unique {
+        width: 100%;
+        height: 630px;
+        padding-top: 45px;
+        
+    }
+
+    #rbnb #loger #unique form #arrive {
+    width: 80%;
+    height: 102px;
+    margin-left: 10%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    }
+
+    #rbnb #loger #unique form #travel {
+    width: 80%;
+    height: 102px;
+    margin-left: 10%;
+    margin-top: 23px;
+    }
+
+    #rbnb #loger #unique form #search {
+        width: 80%;
+        height: 70px;
+        float: left;
+        margin-left: 10%;
+        margin-top: 32px;
+    }
+
+    #loger #unique form #search .jenvoi {
+        width: 100%;
+        height: 70px;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        background-color: #ff5a5f;
+    }
+
+    /*Fin formulaire*/
+
+    /*Début section belgique */
+    #rbnb #belgique {
+        width: 100%;
+        height: 1950px;
+        
+    }
+
+    #rbnb #belgique #lesautres {
+        width: 86%;
+        height: 65px;
+        margin-left: 10%;
+        margin-bottom: 25px;
+        padding-top: 25px;
+        line-height: 1.4;
+    }
+
+    #rbnb #belgique #lesautres .titro {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24.1px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: #000;
+    }
+
+    #rbnb #belgique #lesautres #etoile {
+        width: 15px;
+        height: 15px;
+        border-radius: 30px;
+        background-color: yellow;
+        float: left;
+    }
+
+
+    #rbnb #belgique #lesautres #nomad {
+        float: left;
+        width: 85%;
+        padding-bottom: 25px;
+    }
+
+    #rbnb #belgique #biens {
+        width: 97%;
+        height: 1909px;
+        margin-left: 2%;
+    }
+
+    /*Début Div studio*/
+    #rbnb #belgique #biens #studio {
+        width: 100%;
+        height: 562px;
+        margin-bottom: 25px;
+        
+    }
+
+    #belgique #biens #studio #limage {
+        width: 100%;
+        height: 277.22px;
+        background-color: #ff787c;
+        margin-bottom: 20px;
+    }
+
+    #belgique #biens #studio #stars {
+        width: 84%;
+        height: 30px;
+        margin-left: 7%;
+        margin-bottom: 20px;
+    }
+
+    #belgique #biens #studio #comment {
+        width: 90%;
+        height: auto;
+        margin-left: 7%;
+        margin-bottom: 20px;
+    }
+
+    #belgique #biens #studio #comment .comm {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #484848;
+    }
+
+    #belgique #biens #studio #persona {
+        width: 90%;
+        height: 60px;
+        margin-left: 7%;
+    }
+    /*Fin Div studio*/
+
+    /*Début Div hotes*/
+    #rbnb #belgique #biens #hotes {
+        width: 100%;
+        height: 519px;
+        margin-bottom: 60px;
+        float: left;
+    }
+
+    #belgique #biens #hotes #hoteimg {
+        width: 100%;
+        height: 277.22px;
+        margin-bottom: 20px;
+        background-color: #ffc55a;
+    }
+
+    #belgique #biens #hotes #star {
+        width: 84%;
+        height: 30px;
+        margin-left: 7%;
+        margin-bottom: 20px;
+    }
+
+
+    #belgique #biens #hotes #comments {
+        width: 90%;
+        height: auto;
+        margin-left: 7%;
+        margin-bottom: 20px;
+    }
+
+    #belgique #biens #hotes #comments .comms {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #484848;
+    }
+
+    #belgique #biens #hotes #personas {
+        width: 90%;
+        height: 60px;
+        margin-left: 7%;
+    }
+
+    #belgique #biens #hotes #personas .noms .sappelle {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.6em;
+        color: #484848;
+    }
+
+    #belgique #biens #hotes #personas .noms .letat {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #484848;
+    }
+
+    /*Fin section hotes*/
+
+    /*Début section confort*/
+    #rbnb #belgique #biens #confort {
+        width: 100%;
+        height: 519px;
+        float: left;
+        margin-bottom: 110px;
+    }
+
+    #belgique #biens #confort #confortimg {
+        width: 100%;
+        height: 277.22px;
+        margin-bottom: 20px;
+        background-color: #ff8f5a;
+        margin-left: -1%;
+    }
+
+    #belgique #biens #confort #confortstar {
+        width: 84%;
+        height: 30px;
+        margin-bottom: 20px;
+        margin-left: 7%;
+    }
+
+    #belgique #biens #confort #commentconf {
+        width: 85%;
+        height: auto;
+        margin-left: 7%;
+        margin-bottom: 20px;
+    }
+
+    #belgique #biens #confort #commentconf .comconfort {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-bottom: 12px;
+        color: #484848;
+    }
+
+    #belgique #biens #confort #personaconf {
+        width: 80%;
+        height: 60px;
+        margin-left: 7%;
+    }
+
+    #belgique #biens #confort #personaconf .confnom .sappelle {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.6em;
+        color: #484848;
+    }
+
+    #personaconf .confnom .letat {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #484848;
+    }
+
+    /*Fin section confort*/
+
+    /*Début de voyager avec aibnb*/
+    #rbnb #trailbnb {
+        width: 100%;
+        height: 775px;
+        padding-bottom: 50px;
+    }
+
+    #rbnb #trailbnb #trip {
+        width: 99%;
+        height: 825px;
+        margin-left: 0%;
+    }
+
+    #trailbnb #trip #travelers .titro {
+        font-size: 27px;
+        margin-left: 10%;
+        
+    }
+    
+    /*::bef et aft pour la div trio*/
+    #trailbnb #trip #letrio::before{
+        content: " ";
+        background-color: #ebebeb;
+        display: block;
+        width: 84%;
+        height: 1px;
+        margin-left: 10%;
+        margin-bottom: 45px;
+    }
+
+    #trailbnb #trip #letrio::after{
+        content: " ";
+        background-color: #ebebeb;
+        display: block;
+        width: 84%;
+        height: 1px;
+        margin-top: 776px;
+        margin-left: 10%;
+    }
+    
+        /*Début div assist*/
+    #trailbnb #trip #letrio #assist {
+        width: 98%;
+        height: 172px;
+        float: left;
+        margin-right: 1%;
+    }
+
+    #trailbnb #trip #letrio #assist #icon1 .avatar {
+        width: 60px;
+        height: 60px;
+        margin-left: 10%;
+        background-color: #ffc965;
+    }
+
+    #trailbnb #trip #letrio #assist .jour {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        margin-left: 10%;
+        margin-bottom: 12px;
+        color: #000;
+    }
+
+    #trailbnb #trip #assist .nuit {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.3em;
+        color: #484848;
+        margin-left: 10%;
+    }
+
+        /*Fin div assit*/
+
+        /*Début div chart*/
+    
+    #trailbnb #trip #letrio #chart #icon2 .avatar2 {
+        width: 60px;
+        height: 60px;
+        margin-left: 10%;
+        background-color: #ffc965;
+    }
+
+    #trailbnb #trip #letrio #chart .jour {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        margin-left: 10%;
+        margin-bottom: 12px;
+        color: #000;
+    }
+
+    #trailbnb #trip #letrio #chart .nuit {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.3em;
+        margin-left: 10%;
+        color: #484848;
+    }
+
+        /*Fin div chart*/
+
+        /*Début div hotes*/
+    #trailbnb #trip #hote5 {
+        width: 95%;
+        height: 172px;
+        float: left;
+        margin-top: 86px;
+    }
+
+    #trailbnb #trip #letrio #chart {
+        width: 96%;
+        height: 172px;
+        margin-top: 65px;
+        float: left;
+    }
+
+    #trailbnb #trip #letrio #hote5 #icon3 .avatar3 {
+        width: 60px;
+        height: 60px;
+        margin-left: 10%;
+        background-color: #ffc965;
+    }
+
+    #trailbnb #trip #letrio #host .jour {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        margin-left: 10%;
+        margin-bottom: 12px;
+        color: #000;
+    }
+
+    #trailbnb #trip #letrio #host .nuit {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.3em;
+        margin-left: 10%;
+        color: #484848;
+    }
+
+        /*Fin div hotes*/
+
+    /*Fin de voyager avec aibnb*/
+
+    /*Réservez à l'instant en belgique*/
+    #rbnb #booking {
+        width: 100%;
+        height: 2629px;
+        margin-top: 66px;
+    }
+    #rbnb #booking #partout {
+        width: 80.3%;
+        height: auto;
+        margin-bottom: 50px;
+        margin-left: 10%;
+    }
+
+    #rbnb #booking #partout .titro {
+        font-family: 'Roboto', sans-serif;
+        font-size: 27px;
+        font-weight: 700;
+        margin-bottom: 70px;
+        color: #000;
+    }
+
+    #rbnb #booking #leslieux {
+        width: 100%;
+        height: 2210px;
+    }
+
+    /*Début Overijs*/
+    #rbnb #booking #leslieux #overijs {
+        width: 100%;
+        height: 530px;
+        margin-left: 0%;
+    }
+
+    #rbnb #booking #leslieux #overijs #ovimg {
+        width: 100%;
+        height: 310px;
+        background-color: #0b59b3;
+    }
+    
+    #rbnb #booking #leslieux #overijs .entete {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #767676;
+        margin-top: 12px;
+        margin-left: 10%;
+    }
+    
+    #leslieux #overijs #untitre .titro {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #484848;
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+
+    #leslieux #overijs #par .night {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #484848;
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+
+    #leslieux #overijs #rating .ptitetoile {
+        width: 29%;
+        height: 23px;
+        float: left;
+        margin-left: 10%;
+    }
+
+    #leslieux #overijs #rating .ptitetoile .stars1 {
+        width: 16%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #leslieux #overijs #rating .ptitetoile .stars2 {
+        width: 16%;
+        height: 23px;
+        background-color: #b18a1f;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #overijs #rating .ptitetoile .stars3 {
+        width: 16%;
+        height: 23px;
+        background-color: #c0ec47;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #overijs #rating .ptitetoile .stars4 {
+        width: 16%;
+        height: 23px;
+        background-color: #04a381;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #overijs #rating .ptitetoile .stars5 {
+        width: 16%;
+        height: 23px;
+        background-color: #47b8ec;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #overijs #rating .super {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #484848;
+        margin-top: 10px;
+        line-height: 1.6em;
+    }
+
+    /*Fin Overijs*/
+
+    /*Début Ixelles*/
+    #rbnb #booking #leslieux #ixelles {
+        width: 100%;
+        height: 530px;
+        float: left;
+        margin-left: 0%;
+        margin-bottom: 45px;
+    }
+
+    #rbnb #booking #leslieux #ixelles #iximg {
+        width: 100%;
+        height: 310px;
+        margin-top: 41px;
+        background-color: #0b59b3;
+    }
+
+    #rbnb #booking #leslieux #ixelles .entete {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #767676;
+        margin-top: 12px;
+        margin-left: 10%;
+    }
+
+    #leslieux #ixelles #xelletitre .titro {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #484848;
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+
+    #leslieux #ixelles #de .night {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #484848;
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+
+    #leslieux #ixelles #rate .ptitetoile {
+        width: 29%;
+        height: 23px;
+        float: left;
+        margin-left: 10%;
+    }
+
+    #leslieux #ixelles #rate .ptitetoile .stars1 {
+        width: 16%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #leslieux #ixelles #rate .ptitetoile .stars2 {
+        width: 16%;
+        height: 23px;
+        background-color: #b18a1f;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #ixelles #rate .ptitetoile .stars3 {
+        width: 16%;
+        height: 23px;
+        background-color: #c0ec47;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #ixelles #rate .ptitetoile .stars4 {
+        width: 16%;
+        height: 23px;
+        background-color: #04a381;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #ixelles #rate .ptitetoile .stars5 {
+        width: 16%;
+        height: 23px;
+        background-color: #47b8ec;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #ixelles #rate .super {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #484848;
+        margin-top: 10px;
+        line-height: 1.6em;
+    }
+    
+    /*Fin Ixelles*/
+
+    /*Début Bruxelles*/
+    #rbnb #booking #leslieux #brussels {
+        width: 100%;
+        height: 530px;
+        float: left;
+        margin-left: 0%;
+        margin-bottom: 45px;
+    }
+
+    #rbnb #booking #leslieux #brussels #bxlimg {
+        width: 100%;
+        height: 310px;
+        background-color: #0b59b3;
+    }
+
+    #rbnb #booking #leslieux #brussels .entete {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #767676;
+        margin-top: 12px;
+        margin-left: 10%;
+    }
+
+    #leslieux #brussels #bxltitre .titro {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #484848;
+        margin-top: 10px;
+        margin-left: 10%;
+        line-height: 1.3em;
+    }
+
+    #leslieux #brussels #by .night {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #484848;
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+
+    #leslieux #brussels #cote .ptitetoile {
+        width: 29%;
+        height: 23px;
+        float: left;
+        margin-left: 10%;
+    }
+
+    #leslieux #brussels #cote .ptitetoile .stars1 {
+        width: 16%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #leslieux #brussels #cote .ptitetoile .stars2 {
+        width: 16%;
+        height: 22px;
+        background-color: #b18a1f;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #brussels #cote .ptitetoile .stars3 {
+        width: 16%;
+        height: 23px;
+        background-color: #c0ec47;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #brussels #cote .ptitetoile .stars4 {
+        width: 16%;
+        height: 23px;
+        background-color: #04a381;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #brussels #cote .ptitetoile .stars5 {
+        width: 16%;
+        height: 23px;
+        background-color: #47b8ec;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #brussels #cote .super {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #484848;
+        margin-top: 10px;
+        line-height: 1.6em;
+    }
+
+    /*Fin Bruxelles*/
+
+    /*Début nieuwpoort*/
+    #rbnb #booking #leslieux #nieuwpoort {
+        width: 100%;
+        height: 530px;
+        float: left;
+        margin-left: 0%;
+    }
+
+    #rbnb #booking #leslieux #nieuwpoort #poortimg {
+        width: 100%;
+        height: 310px;
+        background-color: #0d417e;
+    }
+
+    #rbnb #booking #leslieux #nieuwpoort .entete {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #767676;
+        margin-top: 12px;
+        margin-left: 10%;
+    }
+
+    #leslieux #nieuwpoort #poorttitre .titro {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #484848;
+        margin-top: 10px;
+        line-height: 1.3em;
+        margin-left: 10%;
+    }
+
+    #leslieux #nieuwpoort #van .night {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #484848;
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+
+    #leslieux #nieuwpoort #derating .ptitetoile {
+        width: 31%;
+        height: 14px;
+        float: left;
+        margin-left: 10%;
+    }
+
+    #leslieux #nieuwpoort #derating .ptitetoile .stars1 {
+        width: 16%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #leslieux #nieuwpoort #derating .ptitetoile .stars2 {
+        width: 16%;
+        height: 23px;
+        background-color: #b18a1f;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #nieuwpoort #derating .ptitetoile .stars3 {
+        width: 16%;
+        height: 23px;
+        background-color: #c0ec47;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #nieuwpoort #derating .ptitetoile .stars4 {
+        width: 16%;
+        height: 23px;
+        background-color: #04a381;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #nieuwpoort #derating .ptitetoile .stars5 {
+        width: 16%;
+        height: 23px;
+        background-color: #47b8ec;
+        margin-left: 3%;
+        float: left;
+    }
+    
+    #leslieux #nieuwpoort #derating .super {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #484848;
+        margin-top: 10px;
+        line-height: 1.6em;
+    }
+
+    /*Fin nieuwpoort*/
+
+    /*Div Affic plus*/
+    #rbnb #booking #affich {
+        width: 63%;
+        height: 15px;
+        margin-left: 10%;
+        padding-bottom: 55px;
+    }
+
+    #rbnb #booking #affich .cetext a {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        color: #008489;
+    }
+
+    /*Div Id voyage*/
+    #rbnb #booking #levoyage {
+        width: 85%;
+        height: 150px;
+        margin-left: 10%;
+    }
+
+    #rbnb #booking #levoyage #picker .titro {
+        font-family: 'Roboto', sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 12px;
+        color: #000;
+    }
+
+    #rbnb #booking #levoyage #dispo .night {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.4;
+        padding-bottom: 15px;
+        color: #484848;
+    }
+
+    #rbnb #booking #levoyage #cliqueur .datum {
+        width: 55%;
+        height: 60px;
+        background-color: #008489;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 900 !important;
+        border: none;
+        border-radius: 5px 5px 5px 5px;
+        cursor: pointer;
+    }
+
+    /*Menu en display: none sur petit écran*/
+    #rbnb #lemenu {
+        display: none;
+    }
+
+    /*::after sur l'id booking*/
+    #rbnb #booking::after{
+        content: " ";
+        background-color: #ebebeb;
+        display: block;
+        width: 84%;
+        height: 1px;
+        margin-left: 10%;
+        margin-top: 74px;
+        margin-bottom: 45px;
+    }
+
+    /*Footer*/
+    #rbnb #lebas #foot {
+        width: 85%;
+        height: 50px;
+        margin-left: 10%;
+        float: left;
+    }
+
+    #rbnb #lebas #foot #logo2 {
+        width: 6%;
+        height: 25px;
+        background-color: #a4a5a2;
+        float: left;
+    }
+
+    #rbnb #lebas #foot #all {
+        width: 67%;
+        height: 25px;
+        margin-left: 1%;
+        float: left;
+    }
+
+    #rbnb #lebas #foot #europe {
+        width: 17%;
+        height: 25px;
+        margin-left: 77%;
+        margin-top: -25px;
+        float: left;
+    }
+
+}
+
+
+
+/*media querie 501px-1000px*/
+@media screen and (min-width: 501px) and (max-width: 800px)
+{  /*Header*/
+    #rbnb #reserv {
+        width: 100%;
+        height: 540px;
+        background-color: gray;
+        padding-bottom: 120px;
+    }
+
+    #rbnb #reserv #textbutt {
+    width: 97%;
+    height: auto;
+    margin-top: 13px;
+    margin-left: 1.5%;
+    }
+
+    #rbnb #reserv #textbutt .sejour {
+        width: 100%;
+        line-height: 1.3;
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        font-weight: 800 !important;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #fff;
+    
+    }
+
+    #rbnb #reserv #textbutt #lesboutons {
+        width: 95%;
+        height: 188px;
+        margin-top: 48px;
+        margin-left: 3%;
+    
+    }
+
+    #rbnb #reserv #textbutt #lesboutons #butongauch {
+        width: 80%;
+        height: 80px;
+        margin-left: 12%;
+    }
+
+    #rbnb #reserv #butongauch #titre1 .find {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+
+    #rbnb #reserv #butongauch #bout1 {
+        text-align: center;
+        line-height: 2.9;
+        width: 94%;
+        height: 80px;
+        border-radius: 2px;
+        background-color: #fff;
+    }
+
+    #bout1, #bout2 a {
+        cursor: pointer;
+    }
+
+    #rbnb #reserv #butongauch #bout1 .vasur {
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+
+    #lesboutons #butondroit {
+        width: 80% !important;
+        height: 80px !important;
+        margin-left: 12% !important;
+        margin-top: 20px !important;
+    
+    }
+
+    #rbnb #reserv #butondroit #titre2 .find {
+        margin-top: 95px;
+        margin-bottom: 25px;
+    }
+
+    #rbnb #reserv #butondroit #bout2 {
+        text-align: center;
+        line-height: 2.9;
+        width: 94%;
+        height: 80px;
+        border-radius: 2px;
+        background-color: rgba(255, 255, 255, 0);
+        border: 1px solid #fff;
+    }
+
+    #rbnb #reserv #butondroit #bout2 .vasur {
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        color: #000;
+    }
+
+
+
+
+    /*Div loger et tous ses éléments*/
+    /*Headline*/
+    #rbnb #loger #unique .titro {
+        font-family: 'Roboto', sans-serif;
+        font-size: 27px;
+        font-weight: 700;
+        margin-left: 10%;
+        margin-bottom: 20px;
+        line-height: 1.4;
+        color: #000;
+    }
+
+    
+
+    /*Formulaire*/
+    #rbnb #loger #unique form {
+        width: 100%;
+        height: 505px;
+        padding-bottom: 30px;
+        
+    }
+
+    #rbnb #loger #unique form #pays {
+        width: 80%;
+        height: 102px;
+        margin-left: 10%;
+    }
+
+    #rbnb #loger #unique {
+        width: 100%;
+        height: 630px;
+        padding-top: 45px;
+        
+    }
+
+    #rbnb #loger #unique form #arrive {
+    width: 80%;
+    height: 102px;
+    margin-left: 10%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    }
+
+    #rbnb #loger #unique form #travel {
+    width: 80%;
+    height: 102px;
+    margin-left: 10%;
+    margin-top: 23px;
+    }
+
+    #rbnb #loger #unique form #search {
+        width: 80%;
+        height: 70px;
+        float: left;
+        margin-left: 10%;
+        margin-top: 32px;
+    }
+
+    #loger #unique form #search .jenvoi {
+        width: 100%;
+        height: 70px;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        background-color: #ff5a5f;
+        cursor: pointer;
+    }
+
+    /*Fin formulaire*/
+
+    /*Début section belgique */
+    #rbnb #belgique {
+        width: 100%;
+        height: 2230px;
+        
+    }
+
+    #rbnb #belgique #lesautres {
+        width: 86%;
+        height: 65px;
+        margin-left: 10%;
+        margin-bottom: 25px;
+        padding-top: 25px;
+        line-height: 1.4;
+    }
+
+    #rbnb #belgique #lesautres .titro {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24.1px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: #000;
+    }
+
+    #rbnb #belgique #lesautres #etoile {
+        width: 15px;
+        height: 15px;
+        border-radius: 30px;
+        background-color: yellow;
+        float: left;
+    }
+
+
+    #rbnb #belgique #lesautres #nomad {
+        float: left;
+        width: 85%;
+        padding-bottom: 25px;
+    }
+
+    #rbnb #belgique #biens {
+        width: 97%;
+        height: 1909px;
+        margin-left: 2%;
+    }
+
+    /*Début Div studio*/
+    #rbnb #belgique #biens #studio {
+        width: 100%;
+        height: 562px;
+        margin-bottom: 100px;
+        
+    }
+
+    #belgique #biens #studio #limage {
+        width: 100%;
+        height: 377.22px;
+        background-color: #ff787c;
+        margin-bottom: 20px;
+    }
+
+    #belgique #biens #studio #stars {
+        width: 50%;
+        height: 30px;
+        margin-left: 7%;
+        margin-bottom: 20px;
+    }
+
+    #belgique #biens #studio #comment {
+        width: 90%;
+        height: auto;
+        margin-left: 7%;
+        margin-bottom: 20px;
+    }
+
+    #belgique #biens #studio #comment .comm {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #484848;
+    }
+
+    #belgique #biens #studio #persona {
+        width: 90%;
+        height: 60px;
+        margin-left: 7%;
+    }
+    /*Fin Div studio*/
+
+    /*Début Div hotes*/
+    #rbnb #belgique #biens #hotes {
+        width: 100%;
+        height: 519px;
+        margin-bottom: 140px;
+        float: left;
+    }
+
+    #belgique #biens #hotes #hoteimg {
+        width: 100%;
+        height: 377.22px;
+        margin-bottom: 20px;
+        background-color: #ffc55a;
+    }
+
+    #belgique #biens #hotes #star {
+        width: 50%;
+        height: 30px;
+        margin-left: 7%;
+        margin-bottom: 20px;
+    }
+
+
+    #belgique #biens #hotes #comments {
+        width: 90%;
+        height: auto;
+        margin-left: 7%;
+        margin-bottom: 20px;
+    }
+
+    #belgique #biens #hotes #comments .comms {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #484848;
+    }
+
+    #belgique #biens #hotes #personas {
+        width: 90%;
+        height: 60px;
+        margin-left: 7%;
+    }
+
+    #belgique #biens #hotes #personas .noms .sappelle {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.6em;
+        color: #484848;
+    }
+
+    #belgique #biens #hotes #personas .noms .letat {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #484848;
+    }
+
+    /*Fin section hotes*/
+
+    /*Début section confort*/
+    #rbnb #belgique #biens #confort {
+        width: 100%;
+        height: 519px;
+        margin-bottom: 200px;
+        float: left;
+    }
+
+    #belgique #biens #confort #confortimg {
+        width: 100%;
+        height: 377.22px;
+        margin-bottom: 20px;
+        background-color: #ff8f5a;
+        margin-left: -1%;
+    }
+
+    #belgique #biens #confort #confortstar {
+        width: 50%;
+        height: 30px;
+        margin-bottom: 20px;
+        margin-left: 7%;
+    }
+
+    #belgique #biens #confort #commentconf {
+        width: 85%;
+        height: auto;
+        margin-left: 7%;
+        margin-bottom: 20px;
+    }
+
+    #belgique #biens #confort #commentconf .comconfort {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-bottom: 12px;
+        color: #484848;
+    }
+
+    #belgique #biens #confort #personaconf {
+        width: 80%;
+        height: 60px;
+        margin-left: 7%;
+    }
+
+    #belgique #biens #confort #personaconf .confnom .sappelle {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.6em;
+        color: #484848;
+    }
+
+    #personaconf .confnom .letat {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #484848;
+    }
+
+    /*Fin section confort*/
+
+    /*Début de voyager avec aibnb*/
+    #rbnb #trailbnb {
+        width: 100%;
+        height: 775px;
+        padding-bottom: 50px;
+    }
+
+    #rbnb #trailbnb #trip {
+        width: 99%;
+        height: 825px;
+        margin-left: 0%;
+    }
+
+    #trailbnb #trip #travelers .titro {
+        font-size: 27px;
+        margin-left: 10%;
+        
+    }
+    
+    /*::bef et aft pour la div trio*/
+    #trailbnb #trip #letrio::before{
+        content: " ";
+        background-color: #ebebeb;
+        display: block;
+        width: 84%;
+        height: 1px;
+        margin-left: 10%;
+        margin-bottom: 45px;
+    }
+
+    #trailbnb #trip #letrio::after{
+        content: " ";
+        background-color: #ebebeb;
+        display: block;
+        width: 84%;
+        height: 1px;
+        margin-top: 776px;
+        margin-left: 10%;
+    }
+    
+        /*Début div assist*/
+    #trailbnb #trip #letrio #assist {
+        width: 98%;
+        height: 172px;
+        float: left;
+        margin-right: 1%;
+    }
+
+    #trailbnb #trip #letrio #assist #icon1 .avatar {
+        width: 60px;
+        height: 60px;
+        margin-left: 10%;
+        background-color: #ffc965;
+    }
+
+    #trailbnb #trip #letrio #assist .jour {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        margin-left: 10%;
+        margin-bottom: 12px;
+        color: #000;
+    }
+
+    #trailbnb #trip #assist .nuit {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.3em;
+        color: #484848;
+        margin-left: 10%;
+    }
+
+        /*Fin div assit*/
+
+        /*Début div chart*/
+    
+    #trailbnb #trip #letrio #chart #icon2 .avatar2 {
+        width: 60px;
+        height: 60px;
+        margin-left: 10%;
+        background-color: #ffc965;
+    }
+
+    #trailbnb #trip #letrio #chart .jour {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        margin-left: 10%;
+        margin-bottom: 12px;
+        color: #000;
+    }
+
+    #trailbnb #trip #letrio #chart .nuit {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.3em;
+        margin-left: 10%;
+        color: #484848;
+    }
+
+        /*Fin div chart*/
+
+        /*Début div hotes*/
+    #trailbnb #trip #hote5 {
+        width: 100%;
+        height: 172px;
+        float: left;
+        margin-top: 86px;
+    }
+
+    #trailbnb #trip #letrio #chart {
+        width: 93%;
+        height: 172px;
+        margin-top: 65px;
+        float: left;
+    }
+
+    #trailbnb #trip #letrio #hote5 #icon3 .avatar3 {
+        width: 60px;
+        height: 60px;
+        margin-left: 10%;
+        background-color: #ffc965;
+    }
+
+    #trailbnb #trip #letrio #host .jour {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        margin-left: 10%;
+        margin-bottom: 12px;
+        color: #000;
+    }
+
+    #trailbnb #trip #letrio #host .nuit {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.3em;
+        margin-left: 10%;
+        color: #484848;
+    }
+
+        /*Fin div hotes*/
+
+    /*Fin de voyager avec aibnb*/
+
+    /*Réservez à l'instant en belgique*/
+    #rbnb #booking {
+        width: 100%;
+        height: 2628px;
+        margin-top: 66px;
+        background-color: #47b8ec;
+    }
+    #rbnb #booking #partout {
+        width: 80.3%;
+        height: auto;
+        margin-bottom: 50px;
+        margin-left: 10%;
+    }
+
+    #rbnb #booking #partout .titro {
+        font-family: 'Roboto', sans-serif;
+        font-size: 27px;
+        font-weight: 700;
+        margin-bottom: 70px;
+        color: #000;
+    }
+
+    #rbnb #booking #leslieux {
+        width: 100%;
+        height: 2210px;
+    }
+
+    /*Début Overijs*/
+    #rbnb #booking #leslieux #overijs {
+        width: 100%;
+        height: 530px;
+        margin-left: 0%;
+    }
+
+    #rbnb #booking #leslieux #overijs #ovimg {
+        width: 100%;
+        height: 386px;
+        background-color: #0b59b3;
+    }
+    
+    #rbnb #booking #leslieux #overijs .entete {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #767676;
+        margin-top: 12px;
+        margin-left: 10%;
+    }
+    
+    #leslieux #overijs #untitre .titro {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #484848;
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+
+    #leslieux #overijs #par .night {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #484848;
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+
+    #leslieux #overijs #rating .ptitetoile {
+        width: 19%;
+        height: 23px;
+        float: left;
+        margin-left: 10%;
+    }
+
+    #leslieux #overijs #rating .ptitetoile .stars1 {
+        width: 16%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #leslieux #overijs #rating .ptitetoile .stars2 {
+        width: 16%;
+        height: 23px;
+        background-color: #b18a1f;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #overijs #rating .ptitetoile .stars3 {
+        width: 16%;
+        height: 23px;
+        background-color: #c0ec47;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #overijs #rating .ptitetoile .stars4 {
+        width: 16%;
+        height: 23px;
+        background-color: #04a381;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #overijs #rating .ptitetoile .stars5 {
+        width: 16%;
+        height: 23px;
+        background-color: #47b8ec;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #overijs #rating .super {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #484848;
+        margin-top: 10px;
+        line-height: 1.6em;
+    }
+
+    /*Fin Overijs*/
+
+    /*Début Ixelles*/
+    #rbnb #booking #leslieux #ixelles {
+        width: 100%;
+        height: 530px;
+        float: left;
+        margin-left: 0%;
+        margin-bottom: 45px;
+    }
+
+    #rbnb #booking #leslieux #ixelles #iximg {
+        width: 100%;
+        height: 386px;
+        margin-top: 41px;
+        background-color: #0b59b3;
+    }
+
+    #rbnb #booking #leslieux #ixelles .entete {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #767676;
+        margin-top: 12px;
+        margin-left: 10%;
+    }
+
+    #leslieux #ixelles #xelletitre .titro {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #484848;
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+
+    #leslieux #ixelles #de .night {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #484848;
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+
+    #leslieux #ixelles #rate .ptitetoile {
+        width: 19%;
+        height: 23px;
+        float: left;
+        margin-left: 10%;
+    }
+
+    #leslieux #ixelles #rate .ptitetoile .stars1 {
+        width: 16%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #leslieux #ixelles #rate .ptitetoile .stars2 {
+        width: 16%;
+        height: 23px;
+        background-color: #b18a1f;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #ixelles #rate .ptitetoile .stars3 {
+        width: 16%;
+        height: 23px;
+        background-color: #c0ec47;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #ixelles #rate .ptitetoile .stars4 {
+        width: 16%;
+        height: 23px;
+        background-color: #04a381;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #ixelles #rate .ptitetoile .stars5 {
+        width: 16%;
+        height: 23px;
+        background-color: #47b8ec;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #ixelles #rate .super {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #484848;
+        margin-top: 10px;
+        line-height: 1.6em;
+    }
+    
+    /*Fin Ixelles*/
+
+    /*Début Bruxelles*/
+    #rbnb #booking #leslieux #brussels {
+        width: 100%;
+        height: 530px;
+        float: left;
+        margin-left: 0%;
+        margin-bottom: 45px;
+    }
+
+    #rbnb #booking #leslieux #brussels #bxlimg {
+        width: 100%;
+        height: 386px;
+        background-color: #0b59b3;
+    }
+
+    #rbnb #booking #leslieux #brussels .entete {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #767676;
+        margin-top: 12px;
+        margin-left: 10%;
+    }
+
+    #leslieux #brussels #bxltitre .titro {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #484848;
+        margin-top: 10px;
+        margin-left: 10%;
+        line-height: 1.3em;
+    }
+
+    #leslieux #brussels #by .night {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #484848;
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+
+    #leslieux #brussels #cote .ptitetoile {
+        width: 19%;
+        height: 23px;
+        float: left;
+        margin-left: 10%;
+    }
+
+    #leslieux #brussels #cote .ptitetoile .stars1 {
+        width: 16%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #leslieux #brussels #cote .ptitetoile .stars2 {
+        width: 16%;
+        height: 22px;
+        background-color: #b18a1f;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #brussels #cote .ptitetoile .stars3 {
+        width: 16%;
+        height: 23px;
+        background-color: #c0ec47;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #brussels #cote .ptitetoile .stars4 {
+        width: 16%;
+        height: 23px;
+        background-color: #04a381;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #brussels #cote .ptitetoile .stars5 {
+        width: 16%;
+        height: 23px;
+        background-color: #47b8ec;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #brussels #cote .super {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #484848;
+        margin-top: 10px;
+        line-height: 1.6em;
+    }
+
+    /*Fin Bruxelles*/
+
+    /*Début nieuwpoort*/
+    #rbnb #booking #leslieux #nieuwpoort {
+        width: 100%;
+        height: 530px;
+        float: left;
+        margin-left: 0%;
+        margin-bottom: 45px;
+    }
+
+    #rbnb #booking #leslieux #nieuwpoort #poortimg {
+        width: 100%;
+        height: 386px;
+        background-color: #0d417e;
+    }
+
+    #rbnb #booking #leslieux #nieuwpoort .entete {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #767676;
+        margin-top: 12px;
+        margin-left: 10%;
+    }
+
+    #leslieux #nieuwpoort #poorttitre .titro {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #484848;
+        margin-top: 10px;
+        line-height: 1.3em;
+        margin-left: 10%;
+    }
+
+    #leslieux #nieuwpoort #van .night {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #484848;
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+
+    #leslieux #nieuwpoort #derating .ptitetoile {
+        width: 19%;
+        height: 14px;
+        float: left;
+        margin-left: 10%;
+    }
+
+    #leslieux #nieuwpoort #derating .ptitetoile .stars1 {
+        width: 16%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #leslieux #nieuwpoort #derating .ptitetoile .stars2 {
+        width: 16%;
+        height: 23px;
+        background-color: #b18a1f;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #nieuwpoort #derating .ptitetoile .stars3 {
+        width: 16%;
+        height: 23px;
+        background-color: #c0ec47;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #nieuwpoort #derating .ptitetoile .stars4 {
+        width: 16%;
+        height: 23px;
+        background-color: #04a381;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #leslieux #nieuwpoort #derating .ptitetoile .stars5 {
+        width: 16%;
+        height: 23px;
+        background-color: #47b8ec;
+        margin-left: 3%;
+        float: left;
+    }
+    
+    #leslieux #nieuwpoort #derating .super {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #484848;
+        margin-top: 10px;
+        line-height: 1.6em;
+    }
+
+    /*Fin nieuwpoort*/
+
+    /*Div Affic plus*/
+    #rbnb #booking #affich {
+        width: 63%;
+        height: 15px;
+        margin-left: 10%;
+        padding-bottom: 116px;
+    }
+
+    #rbnb #booking #affich .cetext a {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        color: #008489;
+    }
+
+    /*Div Id voyage*/
+    #rbnb #booking #levoyage {
+        width: 85%;
+        height: 150px;
+        margin-left: 10%;
+    }
+
+    #rbnb #booking #levoyage #picker .titro {
+        font-family: 'Roboto', sans-serif;
+        font-size: 27px;
+        font-weight: 700;
+        margin-bottom: 12px;
+        color: #000;
+    }
+
+    #rbnb #booking #levoyage #dispo .night {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.4;
+        padding-bottom: 15px;
+        color: #484848;
+    }
+
+    #rbnb #booking #levoyage #cliqueur .datum {
+        width: 55%;
+        height: 60px;
+        background-color: #008489;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 900 !important;
+        border: none;
+        border-radius: 5px 5px 5px 5px;
+        cursor: pointer;
+    }
+
+    /*Menu Sur écran format mini tablet*/
+    #rbnb #lemenu {
+        width: 100%;
+        height: 736px;
+        margin-bottom: 45px;
+    }
+
+    #rbnb #lemenu #lequat {
+        width: 95%;
+        height: 690px;
+        margin-left: 5%;
+    }
+
+    #rbnb #lemenu #lequat #menu1 {
+        width: 20%;
+        height: 240px;
+        margin-left: 17%;
+        margin-bottom: 100px;
+        float: left;
+    }
+
+    #lemenu #lequat #menu1 #air .bnb {
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 1.9em;
+    }
+
+    ul li a {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        line-height: 1.8em;
+        text-decoration: none;
+        color: #767676;
+        cursor: pointer;
+    }
+
+    #rbnb #lemenu #lequat #menu2 {
+        width: 20%;
+        height: 240px;
+        float: left;
+        padding-bottom: 100px;
+        margin-left: 174px;
+    }
+
+    #lemenu #lequat #menu2 #decouvre .bnb {
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 1.9em;
+    }
+
+    #rbnb #lemenu #lequat #menu3 {
+        width: 42%;
+        height: 240px;
+        float: left;
+        margin-left: 125px;
+    }
+
+    #lemenu #lequat #menu3 #heberge .bnb {
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 1.9em;
+    }
+
+    #rbnb #lemenu #lequat #menu4 {
+        width: 20%;
+        height: 240px;
+        float: left;
+        margin-left: 10px;
+        margin-top: 7px;
+    }
+
+    #lequat #menu4 #condition {
+        width: 100%;
+        height: 20px;
+        margin-bottom: 16px;
+    }
+
+    #lequat #menu4 #condition #social1 {
+        width: 13%;
+        height: 20px;
+        background-color: #484848;
+        float: left;
+    }
+
+    #lequat #menu4 #condition #social2 {
+        width: 13%;
+        height: 20px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #lequat #menu4 #condition #social3 {
+        width: 13%;
+        height: 20px;
+        background-color: #484848;
+        float: left;
+    }
+
+    
+
+    /*::after sur l'id booking*/
+    #rbnb #booking::after{
+        display: none;
+    }
+
+    /*Footer*/
+    #rbnb #lebas #foot {
+        width: 85%;
+        height: 50px;
+        margin-left: 10%;
+        float: left;
+    }
+
+    #rbnb #lebas #foot #logo2 {
+        width: 6%;
+        height: 25px;
+        background-color: #a4a5a2;
+        float: left;
+    }
+
+    #rbnb #lebas #foot #all {
+        width: 63%;
+        height: 25px;
+        margin-left: 1%;
+        float: left;
+    }
+
+    #rbnb #lebas #foot #europe {
+        width: 17%;
+        height: 25px;
+        margin-left: 77%;
+        margin-top: -25px;
+        float: left;
+    }
+
+}
+
+/*Fin média query width 501px à 800px*/
+
+
+/*Début média query width 801px à 1100px*/
+@media screen and (min-width: 801px) and (max-width: 1100px){
+    #rbnb #reserv {
+        width: 100%;
+        height: 580px;
+        background-color: gray;
+        padding-bottom: 80px;
+    }
+
+    #rbnb #reserv #textbutt {
+        width: 83%;
+        height: auto;
+        margin-top: 121px;
+        margin-left: 11%;
+    }
+
+    #rbnb #reserv #textbutt .sejour {
+        width: 100%;
+        line-height: 1.3;
+        font-family: 'Roboto', sans-serif;
+        font-size: 55px;
+        font-weight: 800;
+        margin-bottom: 50px;
+        color: #fff;
+    }
+
+    #rbnb #reserv #textbutt #lesboutons {
+        width: 100%;
+        height: 100px;
+    }
+
+    #rbnb #reserv #butongauch #titre1 .find {
+        font-family: 'Roboto', sans-serif;
+        font-size: 19px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    #rbnb #reserv #butongauch #bout1 {
+        text-align: center;
+        line-height: 2.5;
+        width: 94%;
+        height: 71px;
+        border-radius: 2px;
+        background-color: #fff;
+    }
+
+    #rbnb #reserv #butongauch #bout1 .vasur {
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        line-height: 3.3;
+    }
+
+    #rbnb #reserv #butondroit #titre2 .find {
+        font-family: 'Roboto', sans-serif;
+        font-size: 19px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    #rbnb #reserv #butondroit #bout2 {
+        text-align: center;
+        line-height: 2.5;
+        width: 94%;
+        height: 70px;
+        border-radius: 2px;
+        background-color: rgba(255, 255, 255, 0);
+        border: 1px solid #fff;
+    }
+
+    #rbnb #reserv #butondroit #bout2 .vasur {
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 3.3;
+        color: #484848;
+    }
+
+    #rbnb #loger #unique .titro {
+        font-family: 'Roboto', sans-serif;
+        font-size: 27px;
+        font-weight: 700;
+        margin-left: 10%;
+        margin-bottom: 40px;
+        color: #000;
+    }
+
+    #rbnb #loger #unique form {
+        width: 100%;
+        height: 200px;
+        padding-bottom: 55px;
+    }
+
+    /*Formulaire*/
+    #rbnb #loger #unique form #pays {
+        width: 30%;
+        height: 102px;
+        float: left;
+        margin-left: 3%;
+    }
+
+    #rbnb #loger #unique form #arrive {
+        width: 30%;
+        height: 102px;
+        float: left;
+        margin-left: 1%;
+    }
+
+    #rbnb #loger #unique form #travel {
+        width: 30%;
+        height: 102px;
+        float: left;
+        margin-left: 1%;
+    }
+
+    #rbnb #loger #unique form #search {
+        width: 50%;
+        height: 70px;
+        float: left;
+        margin-left: 34.8%;
+        margin-top: 30px;
+    }
+
+    #rbnb #belgique {
+        width: 100%;
+        height: 770px;
+    }
+
+
+    #rbnb #belgique #lesautres {
+        width: 75%;
+        height: 65px;
+        margin-left: 5%;
+        margin-bottom: 25px;
+    }
+
+    #rbnb #belgique #lesautres .titro {
+        font-family: 'Roboto', sans-serif;
+        font-size: 27px;
+        line-height: 1.4;
+        font-weight: 700;
+        margin-bottom: 25px;
+        color: #000;
+    }
+
+    #rbnb #belgique #lesautres .nomad {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #000000;
+        margin-bottom: 45px;
+    }
+
+    
+    #rbnb #belgique #biens {
+        width: 91%;
+        height: 609px;
+        margin-left: 5%;
+    }
+
+    #belgique #biens #studio #stars .stars1 {
+        width: 7%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #belgique #biens #studio #stars .stars2 {
+        width: 7%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #belgique #biens #studio #stars .stars3 {
+        width: 7%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #belgique #biens #studio #stars .stars4 {
+        width: 7%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #belgique #biens #studio #stars .stars5 {
+        width: 7%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #belgique #biens #studio #comment {
+        width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    /*Div hotes*/
+    #belgique #biens #hotes #star .stars1 {
+        width: 7%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #belgique #biens #hotes #star .stars2 {
+        width: 7%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #belgique #biens #hotes #star .stars3 {
+        width: 7%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #belgique #biens #hotes #star .stars4 {
+        width: 7%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #belgique #biens #hotes #star .stars5 {
+        width: 7%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #belgique #biens #hotes #comments {
+        width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    /*Div confort*/
+    #belgique #biens #confort #confortstar .stars1 {
+        width: 7%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #belgique #biens #confort #confortstar .stars2 {
+        width: 7%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #belgique #biens #confort #confortstar .stars3 {
+        width: 7%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #belgique #biens #confort #confortstar .stars4 {
+        width: 7%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #belgique #biens #confort #confortstar .stars5 {
+        width: 7%;
+        height: 23px;
+        background-color: #ecc047;
+        float: left;
+    }
+
+    #belgique #biens #confort #commentconf {
+        width: 100%;
+        height: auto;
+        margin-bottom: 64px;
+    }
+
+    /*Section voyager avec rbnb*/
+    #rbnb #trailbnb {
+        width: 100%;
+        height: 429px;
+        padding-bottom: 50px;
+    }
+
+    #rbnb #trailbnb #trip {
+        width: 90%;
+        height: 289px;
+        margin-left: 5%;
+    }
+
+    #trailbnb #trip #travelers .titro {
+        font-size: 27px;
+        
+    }
+
+    #trailbnb #trip #letrio #assist {
+        height: 230px;
+        
+    }
+
+    #trailbnb #trip #letrio #assist .jour {
+        font-size: 18px;
+        
+    }
+
+    #trailbnb #trip #assist .nuit {
+        font-size: 16px;
+        line-height: 1.4em;
+    }
+
+    #trailbnb #trip #letrio #chart {
+        height: 230px;
+    }
+
+
+    #trailbnb #trip #letrio #chart .jour {
+        font-size: 18px;
+    }
+
+    #trailbnb #trip #letrio #chart .nuit {
+        font-size: 16px;
+        line-height: 1.4em;
+    }
+
+    #trailbnb #trip #hote5 {
+        height: 230px;
+    
+    }
+
+    #trailbnb #trip #letrio #host .jour {
+        font-size: 18px;
+    }
+
+    #trailbnb #trip #letrio #host .nuit {
+        font-size: 16px;
+        line-height: 1.4em;
+    }
+
+    #trailbnb #trip #letrio::after {
+        margin-top: 430px;
+    }
+    
+    #rbnb #booking #partout {
+        margin-left: 5%;
+   
+    }
+
+
+    #rbnb #booking #partout .titro {
+        font-size: 27px;
+        margin-top: 50px;
+    }
+
+    #rbnb #booking #leslieux #overijs {
+        width: 20%;
+        margin-left: 8%;
+    }
+
+    #rbnb #booking #leslieux #ixelles {
+        width: 20%;
+    }
+
+    #rbnb #booking #leslieux #brussels {
+        width: 20%;
+    }
+
+    #rbnb #booking #leslieux #nieuwpoort {
+        width: 20%;
+    }
+
+    #leslieux #overijs #rating .ptitetoile {
+        width: 46%;
+    }
+
+    #leslieux #ixelles #rate .ptitetoile {
+        width: 46%;
+    }
+
+    #leslieux #brussels #cote .ptitetoile {
+        width: 46%;
+    }
+
+    #leslieux #nieuwpoort #derating .ptitetoile {
+        width: 46%;
+    }
+
+    /*Bouton pour afficher plus*/
+    #rbnb #booking #affich {
+        width: 25%;
+        height: 15px;
+        margin-left: 5%;
+    }
+
+    #rbnb #booking #levoyage {
+        margin-left: 5%;
+    }
+
+    #rbnb #booking #levoyage #picker .titro {
+        font-size: 27px;
+    }
+
+    #rbnb #booking #levoyage #cliqueur .datum {
+        width: 49%;
+        height: 60px;
+        font-size: 20px;
+    
+    }
+
+    #rbnb #lemenu #lequat {
+        width: 88%;
+        height: 283px;
+        margin-left: 5%;
+    }
+
+    #rbnb #lemenu #lequat #menu2 {
+        margin-left: 30px;
+    }
+
+    #rbnb #lemenu #lequat #menu3 {
+        width: 21%;
+        margin-left: 39px;
+    }
+
+    #rbnb #lemenu #lequat #menu4 {
+        margin-left: 56px;
+    }
+
+    /*Footer*/
+    #rbnb #lebas #foot {
+    width: 75%;
+    margin-left: 5%;
+    }
+
+    #rbnb #lebas #foot #logo2 {
+        width: 3%;
+        height: 25px;
+        background-color: #a4a5a2;
+        float: left;
+    }
+
+    #rbnb #lebas #foot #all .right {
+        line-height: 1.4;
+    }
+
+    #rbnb #lebas #foot #europe {
+        width: 10%;
+        margin-left: 96%;
+        margin-top: -25px;
+        float: left;
+    }
+
+}
+
+/*Fin widht 801px à 1100px*/
+
+/*Début widht 1101px à 1400px*/
+@media screen and (min-width: 1101px) and (max-width: 1700px){
+    #rbnb #reserv #textbutt {
+        margin-top: 126px;
+        width: 76%;
+    }
+
+    #rbnb #reserv #textbutt .sejour {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    #rbnb #reserv #textbutt #lesboutons {
+        height: 120px;
+    }
+
+    #rbnb #reserv #textbutt #lesboutons #butongauch{
+        height: 110px;
+    }
+    
+    #rbnb #reserv #butongauch #bout1{
+        height: 65px;
+    }
+
+    #rbnb #reserv #butongauch #bout1 .vasur {
+        font-size: 20px;
+        line-height: 3.1;
+    }
+
+    #rbnb #reserv #textbutt #lesboutons #butondroit {
+        height: 110px;
+    }
+
+    #rbnb #reserv #butondroit #bout2 {
+        height: 64px;
+    }
+
+    #rbnb #reserv #butondroit #bout2 .vasur {
+        font-size: 20px;
+        line-height: 3.1;
+    }
+
+    #rbnb #loger #unique .titro, #rbnb #booking #partout .titro {
+        font-size: 27px;
+    }
+
+    #rbnb #belgique #biens {
+        width: 80%;
+        height: 609px;
+        margin-left: 10%;
+    }
+
+    #belgique #biens #studio #comment, #belgique #biens #hotes #comments, #belgique #biens #confort #commentconf {
+        margin-bottom: 45px;
+    }
+
+    #rbnb #trailbnb {
+        padding-bottom: 100px;
+    }
+
+    #trailbnb #trip #travelers .titro {
+        font-size: 27px;
+        margin-top: 85px;
+        margin-left: 9%;
+    }
+
+    #trailbnb #trip #letrio::before {
+        margin-left: 10%;
+    }
+
+    #trailbnb #trip #letrio::after {
+        margin-top: 292px;
+        margin-left: 10%;
+    }
+
+    #rbnb #trailbnb #trip {
+        width: 80%;
+        height: 301px;
+        margin-left: 10%;
+    }
+
+    #trailbnb #trip #letrio #assist .jour, #trailbnb #trip #letrio #chart .jour, #trailbnb #trip #letrio #host .jour {
+        font-size: 20px;
+    }
+
+    #trailbnb #trip #assist .nuit, #trailbnb #trip #letrio #chart .nuit, #trailbnb #trip #letrio #host .nuit {
+        font-size: 16px;
+        line-height: 1.4em;
+    }
+
+    #rbnb #booking #leslieux #overijs, #rbnb #lemenu::after {
+        margin-left: 10%;
+    }
+
+    #rbnb #booking #leslieux #overijs, #rbnb #booking #leslieux #ixelles, #rbnb #booking #leslieux #brussels,#rbnb #booking #leslieux #nieuwpoort{
+        width: 20%;
+    }
+
+    #rbnb #booking #affich .cetext a {
+        font-size: 22px;
+    }
+
+    #rbnb #lemenu #lequat {
+        width: 80%;
+        height: 240px;
+        margin-left: 10%;
+    }
+
+    #rbnb #lemenu #lequat #menu2, #rbnb #lemenu #lequat #menu3, #rbnb #lemenu #lequat #menu4 {
+        margin-left: 10px;
+    }
+
+    #rbnb #lebas #foot #logo2 {
+        width: 3%;
+    }
+
+    #rbnb #lebas #foot #europe {
+        margin-left: 84%;
+        margin-top: -25px;
+        float: left;
+    }
+    
+
+
+
+}

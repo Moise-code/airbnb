@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <title>Airbnb</title>
 </head>
@@ -14,7 +15,9 @@
     <div id="rbnb">
 
         <!-- Div Réservation-->
-        <header id="reserv">
+        <header id="reserv"><img src="" alt="">
+            <!--Logo-Airbnb-->
+            <div id="logo1"><img src="images/logo-airbnb.png" alt="Airbnb_logo"></div>
             <div id="textbutt">
 
                 <h1 class="sejour">Réservez un séjour. Accueillez des voyageurs. Directement sur Airbnb.</h1>
@@ -32,8 +35,7 @@
 
                     <!--Droit bouton 2-->
                     <div id="butondroit">
-                            <div id="titre2"><p class="find">Trouvez des logements et des activités
-                                </p>
+                            <div id="titre2"><p class="find">Réservez un séjour</p>
                             </div>
                             <div id="bout2">
                                     <a href="#"><span class="vasur">Accueillir</span></a>
@@ -61,12 +63,20 @@
                     <!--Départ et arrivée-->
                     <div id="arrive">
                         <H3 class="country">ARRIVÉE - DÉPART</H3>
-                        <div id="carre1">
-                            <input class="quand" type="date" name="arriv">
+                        <!--rect pour faire un border autour des deux autres-->
+                        <div id="lescarrey">
+                                <div id="carre1">
+                                    <input class="quand" type="date" name="arriv">
+                                </div>
+            
+                                <div id="carre2">
+                                    <input class="when" type="date" name="depart">
+                                </div>
+
                         </div>
-                        <div id="carre2">
-                            <input class="when" type="date" name="depart">
-                        </div>
+
+
+                        
                     </div>
 
                     <!--nbr de personne-->
@@ -235,7 +245,7 @@
                                 </div>
 
                                 <div id="host">
-                                        <h1 class="jour">Charte d'hospitalité générale</h1>
+                                        <h1 class="jour">Hôtes 5 étoiles</h1>
                                         <p class="nuit">
                                                 Entre les draps toujours frais et les meilleures 
                                                 recommandations du quartier, l'hospitalité est une 
@@ -455,14 +465,14 @@
         <section id="lebas">
             <div id="foot">
                 
-                    <div id="logo2"></div>
+                    <div id="logo2"><img src="images/logo-airbnb.png" alt="Airbnb"></div>
 
                     <div id="all">
                         <p class="right">© 2019 Airbnb, Inc. All rights reserved.</p>
                     </div>
 
                     <div id="europe">
-                        <button type="button" value="v EUR v" class="devise">v EUR v</button>
+                        <button type="button" class="devise">v EUR v</button>
                     
                     </div>
             </div>
