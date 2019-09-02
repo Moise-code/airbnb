@@ -482,6 +482,12 @@
     float: left;
 }
 
+#belgique #biens #studio #persona .photo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
 #belgique #biens #studio #persona .nom{
     width: 70%;
     height: 60px;
@@ -740,6 +746,12 @@
     border-radius: 30px;
     background-color: peru;
     float: left;
+}
+
+#belgique #biens #confort #personaconf .photoconf img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
 }
 
 #belgique #biens #confort #personaconf .confnom{
