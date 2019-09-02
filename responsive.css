@@ -1,5 +1,5 @@
-/*media querie 200-500px*/
-@media screen and (min-width: 200px) and (max-width: 500px)
+/*media querie 0-500px*/
+@media screen and (min-width: 0px) and (max-width: 500px)
 {  /*Header*/
     #rbnb #reserv {
         width: 100%;
@@ -332,7 +332,7 @@
     /*Début de voyager avec aibnb*/
     #rbnb #trailbnb {
         width: 100%;
-        height: 775px;
+        height: 1000px;
         padding-bottom: 50px;
     }
 
@@ -365,7 +365,7 @@
         display: block;
         width: 84%;
         height: 1px;
-        margin-top: 776px;
+        margin-top: 921px;
         margin-left: 10%;
     }
     
@@ -438,13 +438,13 @@
         width: 95%;
         height: 172px;
         float: left;
-        margin-top: 86px;
+        margin-top: 171px;
     }
 
     #trailbnb #trip #letrio #chart {
         width: 96%;
         height: 172px;
-        margin-top: 65px;
+        margin-top: 110px;
         float: left;
     }
 
@@ -514,6 +514,11 @@
         width: 100%;
         height: 310px;
         background-color: #0b59b3;
+    }
+
+    #rbnb #booking #leslieux #overijs #ovimg img {
+        width: 100%;
+        height: 310px;
     }
     
     #rbnb #booking #leslieux #overijs .entete {
@@ -616,6 +621,11 @@
         background-color: #0b59b3;
     }
 
+    #rbnb #booking #leslieux #ixelles #iximg img {
+        width: 100%;
+        height: 310px;
+    }
+
     #rbnb #booking #leslieux #ixelles .entete {
         font-family: 'Roboto', sans-serif;
         font-size: 18px;
@@ -715,6 +725,11 @@
         background-color: #0b59b3;
     }
 
+    #rbnb #booking #leslieux #brussels #bxlimg img {
+        width: 100%;
+        height: 310px;
+    }
+
     #rbnb #booking #leslieux #brussels .entete {
         font-family: 'Roboto', sans-serif;
         font-size: 18px;
@@ -812,6 +827,11 @@
         width: 100%;
         height: 310px;
         background-color: #0d417e;
+    }
+
+    #rbnb #booking #leslieux #nieuwpoort #poortimg img {
+        width: 100%;
+        height: 310px;
     }
 
     #rbnb #booking #leslieux #nieuwpoort .entete {
@@ -939,7 +959,7 @@
     }
 
     #rbnb #booking #levoyage #cliqueur .datum {
-        width: 55%;
+        width: 96%;
         height: 60px;
         background-color: #008489;
         color: #fff;
@@ -977,7 +997,7 @@
     }
 
     #rbnb #lebas #foot #logo2 {
-        width: 6%;
+        width: 8%;
         height: 25px;
         background-color: #a4a5a2;
         float: left;
@@ -1090,7 +1110,7 @@
         width: 94%;
         height: 80px;
         border-radius: 2px;
-        background-color: rgba(255, 255, 255, 0);
+        background-color: rgba(19, 18, 18, 0.56);
         border: 1px solid #fff;
     }
 
@@ -1098,7 +1118,7 @@
         font-family: 'Roboto', sans-serif;
         font-size: 25px;
         font-weight: 400;
-        color: #000;
+        color: #fff;
     }
 
 
@@ -1237,6 +1257,11 @@
         margin-bottom: 20px;
     }
 
+    #belgique #biens #studio #limage img{
+        width: 100%;
+        height: 377.22px;
+    }
+
     #belgique #biens #studio #stars {
         width: 50%;
         height: 30px;
@@ -1279,6 +1304,11 @@
         height: 377.22px;
         margin-bottom: 20px;
         background-color: #ffc55a;
+    }
+
+    #belgique #biens #hotes #hoteimg img{
+        width: 100%;
+        height: 377.22px;
     }
 
     #belgique #biens #hotes #star {
@@ -1341,6 +1371,11 @@
         margin-bottom: 20px;
         background-color: #ff8f5a;
         margin-left: -1%;
+    }
+
+    #belgique #biens #confort #confortimg img{
+        width: 100%;
+        height: 377.22px;
     }
 
     #belgique #biens #confort #confortstar {
@@ -1542,7 +1577,6 @@
         width: 100%;
         height: 2628px;
         margin-top: 66px;
-        background-color: #47b8ec;
     }
     #rbnb #booking #partout {
         width: 80.3%;
@@ -1575,6 +1609,11 @@
         width: 100%;
         height: 386px;
         background-color: #0b59b3;
+    }
+
+    #rbnb #booking #leslieux #overijs #ovimg img{
+        width: 100%;
+        height: 386px;
     }
     
     #rbnb #booking #leslieux #overijs .entete {
@@ -1677,6 +1716,11 @@
         background-color: #0b59b3;
     }
 
+    #rbnb #booking #leslieux #ixelles #iximg img{
+        width: 100%;
+        height: 386px;
+    }
+
     #rbnb #booking #leslieux #ixelles .entete {
         font-family: 'Roboto', sans-serif;
         font-size: 18px;
@@ -1774,6 +1818,11 @@
         width: 100%;
         height: 386px;
         background-color: #0b59b3;
+    }
+
+    #rbnb #booking #leslieux #brussels #bxlimg img{
+        width: 100%;
+        height: 386px;
     }
 
     #rbnb #booking #leslieux #brussels .entete {
@@ -1874,6 +1923,12 @@
         width: 100%;
         height: 386px;
         background-color: #0d417e;
+    }
+
+    #rbnb #booking #leslieux #nieuwpoort #poortimg img{
+        width: 100%;
+        height: 386px;
+        background-color: #0d417e
     }
 
     #rbnb #booking #leslieux #nieuwpoort .entete {
@@ -2222,16 +2277,16 @@
         width: 94%;
         height: 70px;
         border-radius: 2px;
-        background-color: rgba(255, 255, 255, 0);
+        background-color: rgba(19, 18, 18, 0.56);
         border: 1px solid #fff;
     }
 
     #rbnb #reserv #butondroit #bout2 .vasur {
         font-family: 'Roboto', sans-serif;
         font-size: 22px;
-        font-weight: 400;
+        font-weight: 700;
         line-height: 3.3;
-        color: #484848;
+        color: #fff;
     }
 
     #rbnb #loger #unique .titro {
@@ -2315,6 +2370,8 @@
         height: 609px;
         margin-left: 5%;
     }
+
+
 
     #belgique #biens #studio #stars .stars1 {
         width: 7%;
@@ -2622,7 +2679,7 @@
 /*Début widht 1101px à 1400px*/
 @media screen and (min-width: 1101px) and (max-width: 1700px){
     #rbnb #reserv #textbutt {
-        margin-top: 126px;
+        margin-top: 18px;
         width: 76%;
     }
 
