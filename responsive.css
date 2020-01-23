@@ -145,7 +145,6 @@
         width: 15px;
         height: 15px;
         border-radius: 30px;
-        background-color: yellow;
         float: left;
     }
 
@@ -381,7 +380,6 @@
         width: 60px;
         height: 60px;
         margin-left: 10%;
-        background-color: #ffc965;
     }
 
     #trailbnb #trip #letrio #assist .jour {
@@ -410,7 +408,6 @@
         width: 60px;
         height: 60px;
         margin-left: 10%;
-        background-color: #ffc965;
     }
 
     #trailbnb #trip #letrio #chart .jour {
@@ -452,7 +449,6 @@
         width: 60px;
         height: 60px;
         margin-left: 10%;
-        background-color: #ffc965;
     }
 
     #trailbnb #trip #letrio #host .jour {
@@ -519,6 +515,7 @@
     #rbnb #booking #leslieux #overijs #ovimg img {
         width: 100%;
         height: 310px;
+        object-fit: cover;
     }
     
     #rbnb #booking #leslieux #overijs .entete {
@@ -556,40 +553,35 @@
     }
 
     #leslieux #overijs #rating .ptitetoile .stars1 {
-        width: 16%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
     #leslieux #overijs #rating .ptitetoile .stars2 {
-        width: 16%;
-        height: 23px;
-        background-color: #b18a1f;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #overijs #rating .ptitetoile .stars3 {
-        width: 16%;
-        height: 23px;
-        background-color: #c0ec47;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #overijs #rating .ptitetoile .stars4 {
-        width: 16%;
-        height: 23px;
-        background-color: #04a381;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #overijs #rating .ptitetoile .stars5 {
-        width: 16%;
-        height: 23px;
-        background-color: #47b8ec;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
@@ -600,7 +592,7 @@
         font-weight: 400;
         color: #484848;
         margin-top: 10px;
-        line-height: 1.6em;
+        line-height: 1em;
     }
 
     /*Fin Overijs*/
@@ -624,6 +616,7 @@
     #rbnb #booking #leslieux #ixelles #iximg img {
         width: 100%;
         height: 310px;
+        object-fit: cover;
     }
 
     #rbnb #booking #leslieux #ixelles .entete {
@@ -661,40 +654,35 @@
     }
 
     #leslieux #ixelles #rate .ptitetoile .stars1 {
-        width: 16%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
     #leslieux #ixelles #rate .ptitetoile .stars2 {
-        width: 16%;
-        height: 23px;
-        background-color: #b18a1f;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #ixelles #rate .ptitetoile .stars3 {
-        width: 16%;
-        height: 23px;
-        background-color: #c0ec47;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #ixelles #rate .ptitetoile .stars4 {
-        width: 16%;
-        height: 23px;
-        background-color: #04a381;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #ixelles #rate .ptitetoile .stars5 {
-        width: 16%;
-        height: 23px;
-        background-color: #47b8ec;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
@@ -705,7 +693,7 @@
         font-weight: 400;
         color: #484848;
         margin-top: 10px;
-        line-height: 1.6em;
+        line-height: 1em;
     }
     
     /*Fin Ixelles*/
@@ -728,6 +716,7 @@
     #rbnb #booking #leslieux #brussels #bxlimg img {
         width: 100%;
         height: 310px;
+        object-fit: cover;
     }
 
     #rbnb #booking #leslieux #brussels .entete {
@@ -766,40 +755,35 @@
     }
 
     #leslieux #brussels #cote .ptitetoile .stars1 {
-        width: 16%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
     #leslieux #brussels #cote .ptitetoile .stars2 {
-        width: 16%;
-        height: 22px;
-        background-color: #b18a1f;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #brussels #cote .ptitetoile .stars3 {
-        width: 16%;
-        height: 23px;
-        background-color: #c0ec47;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #brussels #cote .ptitetoile .stars4 {
-        width: 16%;
-        height: 23px;
-        background-color: #04a381;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #brussels #cote .ptitetoile .stars5 {
-        width: 16%;
-        height: 23px;
-        background-color: #47b8ec;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
@@ -810,7 +794,7 @@
         font-weight: 400;
         color: #484848;
         margin-top: 10px;
-        line-height: 1.6em;
+        line-height: 1em;
     }
 
     /*Fin Bruxelles*/
@@ -832,6 +816,7 @@
     #rbnb #booking #leslieux #nieuwpoort #poortimg img {
         width: 100%;
         height: 310px;
+        object-fit: cover;
     }
 
     #rbnb #booking #leslieux #nieuwpoort .entete {
@@ -870,40 +855,35 @@
     }
 
     #leslieux #nieuwpoort #derating .ptitetoile .stars1 {
-        width: 16%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
     #leslieux #nieuwpoort #derating .ptitetoile .stars2 {
-        width: 16%;
-        height: 23px;
-        background-color: #b18a1f;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #nieuwpoort #derating .ptitetoile .stars3 {
-        width: 16%;
-        height: 23px;
-        background-color: #c0ec47;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #nieuwpoort #derating .ptitetoile .stars4 {
-        width: 16%;
-        height: 23px;
-        background-color: #04a381;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #nieuwpoort #derating .ptitetoile .stars5 {
-        width: 16%;
-        height: 23px;
-        background-color: #47b8ec;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
@@ -914,7 +894,7 @@
         font-weight: 400;
         color: #484848;
         margin-top: 10px;
-        line-height: 1.6em;
+        line-height: 1em;
     }
 
     /*Fin nieuwpoort*/
@@ -1260,6 +1240,7 @@
     #belgique #biens #studio #limage img{
         width: 100%;
         height: 377.22px;
+        object-fit: cover;
     }
 
     #belgique #biens #studio #stars {
@@ -1309,6 +1290,7 @@
     #belgique #biens #hotes #hoteimg img{
         width: 100%;
         height: 377.22px;
+        object-fit: cover;
     }
 
     #belgique #biens #hotes #star {
@@ -1376,6 +1358,7 @@
     #belgique #biens #confort #confortimg img{
         width: 100%;
         height: 377.22px;
+        object-fit: cover;
     }
 
     #belgique #biens #confort #confortstar {
@@ -1476,7 +1459,6 @@
         width: 60px;
         height: 60px;
         margin-left: 10%;
-        background-color: #ffc965;
     }
 
     #trailbnb #trip #letrio #assist .jour {
@@ -1505,7 +1487,6 @@
         width: 60px;
         height: 60px;
         margin-left: 10%;
-        background-color: #ffc965;
     }
 
     #trailbnb #trip #letrio #chart .jour {
@@ -1547,7 +1528,6 @@
         width: 60px;
         height: 60px;
         margin-left: 10%;
-        background-color: #ffc965;
     }
 
     #trailbnb #trip #letrio #host .jour {
@@ -1614,6 +1594,7 @@
     #rbnb #booking #leslieux #overijs #ovimg img{
         width: 100%;
         height: 386px;
+        object-fit: cover;
     }
     
     #rbnb #booking #leslieux #overijs .entete {
@@ -1651,40 +1632,35 @@
     }
 
     #leslieux #overijs #rating .ptitetoile .stars1 {
-        width: 16%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
     #leslieux #overijs #rating .ptitetoile .stars2 {
-        width: 16%;
-        height: 23px;
-        background-color: #b18a1f;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #overijs #rating .ptitetoile .stars3 {
-        width: 16%;
-        height: 23px;
-        background-color: #c0ec47;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #overijs #rating .ptitetoile .stars4 {
-        width: 16%;
-        height: 23px;
-        background-color: #04a381;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #overijs #rating .ptitetoile .stars5 {
-        width: 16%;
-        height: 23px;
-        background-color: #47b8ec;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
@@ -1695,7 +1671,7 @@
         font-weight: 400;
         color: #484848;
         margin-top: 10px;
-        line-height: 1.6em;
+        line-height: 1em;
     }
 
     /*Fin Overijs*/
@@ -1719,6 +1695,7 @@
     #rbnb #booking #leslieux #ixelles #iximg img{
         width: 100%;
         height: 386px;
+        object-fit: cover;
     }
 
     #rbnb #booking #leslieux #ixelles .entete {
@@ -1756,40 +1733,35 @@
     }
 
     #leslieux #ixelles #rate .ptitetoile .stars1 {
-        width: 16%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
     #leslieux #ixelles #rate .ptitetoile .stars2 {
-        width: 16%;
-        height: 23px;
-        background-color: #b18a1f;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #ixelles #rate .ptitetoile .stars3 {
-        width: 16%;
-        height: 23px;
-        background-color: #c0ec47;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #ixelles #rate .ptitetoile .stars4 {
-        width: 16%;
-        height: 23px;
-        background-color: #04a381;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #ixelles #rate .ptitetoile .stars5 {
-        width: 16%;
-        height: 23px;
-        background-color: #47b8ec;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
@@ -1800,7 +1772,7 @@
         font-weight: 400;
         color: #484848;
         margin-top: 10px;
-        line-height: 1.6em;
+        line-height: 1em;
     }
     
     /*Fin Ixelles*/
@@ -1823,6 +1795,7 @@
     #rbnb #booking #leslieux #brussels #bxlimg img{
         width: 100%;
         height: 386px;
+        object-fit: cover;
     }
 
     #rbnb #booking #leslieux #brussels .entete {
@@ -1861,40 +1834,35 @@
     }
 
     #leslieux #brussels #cote .ptitetoile .stars1 {
-        width: 16%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
     #leslieux #brussels #cote .ptitetoile .stars2 {
-        width: 16%;
-        height: 22px;
-        background-color: #b18a1f;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #brussels #cote .ptitetoile .stars3 {
-        width: 16%;
-        height: 23px;
-        background-color: #c0ec47;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #brussels #cote .ptitetoile .stars4 {
-        width: 16%;
-        height: 23px;
-        background-color: #04a381;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #brussels #cote .ptitetoile .stars5 {
-        width: 16%;
-        height: 23px;
-        background-color: #47b8ec;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
@@ -1905,7 +1873,7 @@
         font-weight: 400;
         color: #484848;
         margin-top: 10px;
-        line-height: 1.6em;
+        line-height: 1em;
     }
 
     /*Fin Bruxelles*/
@@ -1928,7 +1896,9 @@
     #rbnb #booking #leslieux #nieuwpoort #poortimg img{
         width: 100%;
         height: 386px;
-        background-color: #0d417e
+        background-color: #0d417e;
+        object-fit: cover;
+        
     }
 
     #rbnb #booking #leslieux #nieuwpoort .entete {
@@ -1967,40 +1937,35 @@
     }
 
     #leslieux #nieuwpoort #derating .ptitetoile .stars1 {
-        width: 16%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
     #leslieux #nieuwpoort #derating .ptitetoile .stars2 {
-        width: 16%;
-        height: 23px;
-        background-color: #b18a1f;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #nieuwpoort #derating .ptitetoile .stars3 {
-        width: 16%;
-        height: 23px;
-        background-color: #c0ec47;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #nieuwpoort #derating .ptitetoile .stars4 {
-        width: 16%;
-        height: 23px;
-        background-color: #04a381;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
 
     #leslieux #nieuwpoort #derating .ptitetoile .stars5 {
-        width: 16%;
-        height: 23px;
-        background-color: #47b8ec;
+        width: 16px;
+        height: 16px;
         margin-left: 3%;
         float: left;
     }
@@ -2011,7 +1976,7 @@
         font-weight: 400;
         color: #484848;
         margin-top: 10px;
-        line-height: 1.6em;
+        line-height: 1em;
     }
 
     /*Fin nieuwpoort*/
@@ -2220,6 +2185,10 @@
         padding-bottom: 80px;
     }
 
+    #rbnb #belgique{
+        margin-bottom: 60px;
+    }
+
     #rbnb #reserv #textbutt {
         width: 83%;
         height: auto;
@@ -2374,37 +2343,32 @@
 
 
     #belgique #biens #studio #stars .stars1 {
-        width: 7%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
     #belgique #biens #studio #stars .stars2 {
-        width: 7%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
     #belgique #biens #studio #stars .stars3 {
-        width: 7%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
     #belgique #biens #studio #stars .stars4 {
-        width: 7%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
     #belgique #biens #studio #stars .stars5 {
-        width: 7%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
@@ -2416,37 +2380,32 @@
 
     /*Div hotes*/
     #belgique #biens #hotes #star .stars1 {
-        width: 7%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
     #belgique #biens #hotes #star .stars2 {
-        width: 7%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
     #belgique #biens #hotes #star .stars3 {
-        width: 7%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
     #belgique #biens #hotes #star .stars4 {
-        width: 7%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
     #belgique #biens #hotes #star .stars5 {
-        width: 7%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
@@ -2458,37 +2417,32 @@
 
     /*Div confort*/
     #belgique #biens #confort #confortstar .stars1 {
-        width: 7%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
     #belgique #biens #confort #confortstar .stars2 {
-        width: 7%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
     #belgique #biens #confort #confortstar .stars3 {
-        width: 7%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
     #belgique #biens #confort #confortstar .stars4 {
-        width: 7%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
     #belgique #biens #confort #confortstar .stars5 {
-        width: 7%;
-        height: 23px;
-        background-color: #ecc047;
+        width: 16px;
+        height: 16px;
         float: left;
     }
 
@@ -2592,19 +2546,19 @@
     }
 
     #leslieux #overijs #rating .ptitetoile {
-        width: 46%;
+        width: 86%;
     }
 
     #leslieux #ixelles #rate .ptitetoile {
-        width: 46%;
+        width: 86%;
     }
 
     #leslieux #brussels #cote .ptitetoile {
-        width: 46%;
+        width: 86%;
     }
 
     #leslieux #nieuwpoort #derating .ptitetoile {
-        width: 46%;
+        width: 95%;
     }
 
     /*Bouton pour afficher plus*/
@@ -2796,6 +2750,23 @@
         margin-left: 84%;
         margin-top: -25px;
         float: left;
+    }
+
+
+    #leslieux #overijs #rating .ptitetoile {
+        width: 55%;
+    }
+
+    #leslieux #ixelles #rate .ptitetoile {
+        width: 55%;
+    }
+
+    #leslieux #brussels #cote .ptitetoile {
+        width: 55%;
+    }
+
+    #leslieux #nieuwpoort #derating .ptitetoile {
+        width: 55%;
     }
     
 
